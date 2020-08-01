@@ -1,0 +1,18 @@
+<div class="media">
+  <div class="pull-left">
+    <div {{bind-attr class=":media-object iconClass"}}></div>
+  </div>
+  <div class="media-body">
+    <p>{{yield}}</p>
+
+    <div class="pull-right">
+      {{#if cancel-button-label}}
+        <button type="button" class="btn btn-default btn-xs" {{action "cancel"}}>{{cancel-button-label}}</button>
+      {{/if}}
+
+      {{#if confirm-button-label}}
+        <button type="button" class="btn btn-default btn-xs" {{action "confirm"}}>{{confirm-button-label}}</button>
+      {{/if}}
+    </div>
+  </div>
+</div>

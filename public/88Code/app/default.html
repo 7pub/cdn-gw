@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#3F51B5">
+    <title>88 Encryption</title>
+    <meta name="description" content="This is a Material Design text encryption tool.">
+    
+    <link rel="stylesheet" href="./material-components-web.min.css">
+    <link rel="stylesheet" href="./root.css">
+    <!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"-->
+    <link rel="stylesheet" href="./normalize.min.css">
+</head>
+<body>
+    <div class="ribbon mdc-elevation--z4"></div>
+    <main class="main-content mdc-typography mdc-elevation--z8">
+        <span><p class="mdc-typography--headline4">THE ENIGMA - C
+            <img style="width: 0.9em; margin: 0px 0px -4px -10px;" class="" src="./88.PNG"/>DE</p>
+        </span>
+        <!--Beginn Encryption Strategy-->
+        <div style="display: none;" class="mdc-select mdc-select--outlined encrypt--strategy" data-mdc-auto-init="MDCSelect">
+            <input type="hidden" name="enhanced-select">
+            <i class="mdc-select__dropdown-icon"></i>
+            <div id="demo-selected-text" class="mdc-select__selected-text" role="button" aria-haspopup="listbox" aria-labelledby="demo-label demo-selected-text"></div>
+            <div class="encrypt--strategy-helper mdc-select__menu mdc-menu mdc-menu-surface" role="listbox">
+                <ul class="mdc-list">
+                    <li class="mdc-list-item mdc-list-item--selected" data-value="aes" role="option" data-mdc-auto-init="MDCRipple">
+                        AES
+                    </li>
+                    <li class="mdc-list-item" data-value="des" aria-selected="true" role="option" data-mdc-auto-init="MDCRipple">
+                        DES
+                    </li>
+                    <li class="mdc-list-item" data-value="rc4" role="option" data-mdc-auto-init="MDCRipple">
+                        RC4
+                    </li>
+                    <li class="mdc-list-item" data-value="rc4drop" role="option" data-mdc-auto-init="MDCRipple">
+                        RC4Drop
+                    </li>
+                    <li class="mdc-list-item" data-value="rabbit" role="option" data-mdc-auto-init="MDCRipple">
+                        Rabbit
+                    </li>
+                    <li class="mdc-list-item" data-value="rabbitlegacy" role="option" data-mdc-auto-init="MDCRipple">
+                        RabbitLegacy
+                    </li>
+                    <li class="mdc-list-item" data-value="tripledes" role="option" data-mdc-auto-init="MDCRipple">
+                        TripleDES
+                    </li>
+                </ul>
+            </div>
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label class="mdc-floating-label">Encryption Strategy</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div><!--End Encryption Strategy-->
+        <br>
+        <br>
+        <div class="mdc-text-field mdc-text-field--textarea mdc-text-field--fullwidth encrypt--text" data-mdc-auto-init="MDCTextField">
+            <textarea id="textarea-one" class="mdc-text-field__input" rows="4" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-gramm_editor="false"></textarea>
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="textarea-one" class="mdc-floating-label">Text to encrypt</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!--Beginn Preshared Key-->
+        <div class="mdc-text-field mdc-text-field--outlined encrypt--password" data-mdc-auto-init="MDCTextField">
+            <input type="password" id="tf-outlined-one" class="mdc-text-field__input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="tf-outlined-one" class="mdc-floating-label">Preshared Key</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div><!--End Preshared Key-->
+        <br>
+        <br>
+        <!--Beginn Encrypted Text-->
+        <div class="mdc-text-field mdc-text-field--textarea mdc-text-field--fullwidth encrypt--cipher" data-mdc-auto-init="MDCTextField">
+            <textarea id="textarea-two" class="mdc-text-field__input" rows="4" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-gramm_editor="false"></textarea>
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label for="textarea-two" class="mdc-floating-label">Encrypted text</label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div><!--End Encrypted Text-->
+    </main>
+    <script async src="./html5shiv-printshiv.min.js"></script>
+    <script src="./material-components-web.min.js"></script>
+    <script src="./crypto-js.min.js"></script>
+    <script src="./jquery.slim.min.js"></script>
+    <script>
+        mdc.autoInit();
+        var strategy = "aes";
+        function encrypt(text, password) {
+            switch (strategy) {
+                case "aes":return CryptoJS.AES.encrypt(text, password);
+                case "des":return CryptoJS.DES.encrypt(text, password);
+                case "rc4":return CryptoJS.RC4.encrypt(text, password);
+                case "rc4drop":return CryptoJS.RC4Drop.encrypt(text, password);
+                case "rabbit":return CryptoJS.Rabbit.encrypt(text, password);
+                case "rabbitlegacy":return CryptoJS.RabbitLegacy.encrypt(text, password);
+                case "tripledes":return CryptoJS.TripleDES.encrypt(text, password);}}
+        function decrypt(cipher, password) {
+            switch (strategy) {
+                case "aes":return CryptoJS.AES.decrypt(cipher, password).toString(CryptoJS.enc.Utf8);
+                case "des":return CryptoJS.DES.decrypt(cipher, password).toString(CryptoJS.enc.Utf8);
+                case "rc4":return CryptoJS.RC4.decrypt(cipher, password).toString(CryptoJS.enc.Utf8);
+                case "rc4drop":return CryptoJS.RC4Drop.decrypt(cipher, password).toString(CryptoJS.enc.Utf8);
+                case "rabbit":return CryptoJS.Rabbit.decrypt(cipher, password).toString(CryptoJS.enc.Utf8);
+                case "rabbitlegacy":return CryptoJS.RabbitLegacy.decrypt(cipher, password).toString(CryptoJS.enc.Utf8);
+                case "tripledes":return CryptoJS.TripleDES.decrypt(cipher, password).toString(CryptoJS.enc.Utf8);}}
+        $(".encrypt--strategy").
+        get(0).
+        MDCSelect.listen("MDCSelect:change", function() {strategy = 
+            $(".encrypt--strategy").get(0).MDCSelect.value;$(".encrypt--cipher").get(0).MDCTextField.value = encrypt($(".encrypt--text").get(0).MDCTextField.value,$(".encrypt--password").get(0).MDCTextField.value);});
+            $(".encrypt--text textarea").on("input", function() {$(".encrypt--cipher").get(0).MDCTextField.value = encrypt($(".encrypt--text").get(0).MDCTextField.value,$(".encrypt--password").get(0).MDCTextField.value);});
+            $(".encrypt--password input").on("input", function() {$(".encrypt--cipher").get(0).MDCTextField.value = encrypt($(".encrypt--text").get(0).MDCTextField.value,$(".encrypt--password").get(0).MDCTextField.value);});
+            $(".encrypt--cipher textarea").on("input", function() {$(".encrypt--text").get(0).MDCTextField.value = decrypt($(".encrypt--cipher").get(0).MDCTextField.value,$(".encrypt--password").get(0).MDCTextField.value);});
+    
+    </script>
+</body>
+</html>
