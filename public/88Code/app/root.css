@@ -1,7 +1,0 @@
-:root {--mdc-theme-primary: #3f51b5;--mdc-theme-secondary: #f44336;--mdc-theme-on-primary: #ffffff;--mdc-theme-on-secondary: #ffffff;}
-:root body {background-color: #fafafa;}
-:root body .ribbon {top: 0;z-index: -1;background-color: #3f51b5;width: 100%;height: 10rem;position: absolute;}
-:root body .main-content {background-color: #ffffff;border-radius: 4px;margin: 20px;padding: 20px;min-height: calc(100vh - 80px);}
-:root body .main-content .encrypt--password,:root body .main-content .decrypt--password,:root body .main-content .encrypt--strategy {width: 100%;}
-:root body .main-content .decrypt {display: none;}
-:root body .encrypt--strategy-helper {max-width: calc(100% - 80px);width: calc(100% - 80px);}
