@@ -6,31 +6,32 @@
 
 // ND2 Widgets
 
-;(function(factory) {
+;
+(function(factory) {
 
-  // Establish the root object, `window` (`self`) in the browser, or `global` on the server.
-  // We use `self` instead of `window` for `WebWorker` support.
-  var root = (typeof self === 'object' && self.self === self && self) ||
-            (typeof global === 'object' && global.global === global && global);
+    // Establish the root object, `window` (`self`) in the browser, or `global` on the server.
+    // We use `self` instead of `window` for `WebWorker` support.
+    var root = (typeof self === 'object' && self.self === self && self) ||
+        (typeof global === 'object' && global.global === global && global);
 
-  // Set up Backbone appropriately for the environment. Start with AMD.
-  if (typeof define === 'function' && define.amd) {
-    define(['jquery', 'Waves', 'exports' ], function($, Waves, exports) {
-      // Export global even in AMD case in case this script is loaded with
-      // others that may still expect a global Backbone.
-      factory($, Waves, exports);
-      return $;
-    });
+    // Set up Backbone appropriately for the environment. Start with AMD.
+    if (typeof define === 'function' && define.amd) {
+        define(['jquery', 'Waves', 'exports'], function($, Waves, exports) {
+            // Export global even in AMD case in case this script is loaded with
+            // others that may still expect a global Backbone.
+            factory($, Waves, exports);
+            return $;
+        });
 
-  // Next for Node.js or CommonJS. jQuery may not be needed as a module.
-  } else if (typeof exports !== 'undefined') {
-    var $ = require('jquery');
-    var Waves = require('Waves');
-    factory(root, Waves, root);
-  // Finally, as a browser global.
-  } else {
-    factory(root.jQuery || root.$, root.Waves || undefined, root);
-  }
+        // Next for Node.js or CommonJS. jQuery may not be needed as a module.
+    } else if (typeof exports !== 'undefined') {
+        var $ = require('jquery');
+        var Waves = require('Waves');
+        factory(root, Waves, root);
+        // Finally, as a browser global.
+    } else {
+        factory(root.jQuery || root.$, root.Waves || undefined, root);
+    }
 
 }(function($, Waves, exports) {
     "use strict";
@@ -272,26 +273,26 @@
 
             // Activate Content Tab
             var oldContent = obj.closest('.ui-page').find(".nd2Tabs-content-tab.nd2Tab-active");
-            
-            if (_self.element.data('swipe')){
-	            oldContent.addClass("to-" + directionTo);
-	            window.setTimeout(function() {
-	                oldContent.removeClass("nd2Tab-active to-" + directionTo);
-	            }, 400);
+
+            if (_self.element.data('swipe')) {
+                oldContent.addClass("to-" + directionTo);
+                window.setTimeout(function() {
+                    oldContent.removeClass("nd2Tab-active to-" + directionTo);
+                }, 400);
             } else {
-            	oldContent.removeClass("nd2Tab-active");
+                oldContent.removeClass("nd2Tab-active");
             }
 
             var newContent = obj.closest('.ui-page').find(".nd2Tabs-content-tab[data-tab='" + _self.settings.activeTab + "']");
-        	
-            if (_self.element.data('swipe')){
-	            newContent.addClass("nd2Tab-active from-" + direction);
-	
-	            window.setTimeout(function() {
-	                newContent.removeClass("from-" + direction);
-	            }, 150);
+
+            if (_self.element.data('swipe')) {
+                newContent.addClass("nd2Tab-active from-" + direction);
+
+                window.setTimeout(function() {
+                    newContent.removeClass("from-" + direction);
+                }, 150);
             } else {
-            	newContent.addClass("nd2Tab-active");
+                newContent.addClass("nd2Tab-active");
             }
 
         },
@@ -707,16 +708,16 @@
             };
 
             _self.iniSmoothTransition = function() {
-                    $("body").addClass("nd2-ready");
-                    $(document).on("pagechange",function(){
+                $("body").addClass("nd2-ready");
+                $(document).on("pagechange", function() {
                         $("body").removeClass("nd2-ready");
                     })
                     .bind("pagecontainershow ", function(e) {
-                       $('body').css('opacity','1');
+                        $('body').css('opacity', '1');
                     });
-                    $(window).on('navigate',function(event,state) {
-                        $('body').css('opacity','1');
-                    });
+                $(window).on('navigate', function(event, state) {
+                    $('body').css('opacity', '1');
+                });
             };
 
             _self.getUrlParts = function(url) {
