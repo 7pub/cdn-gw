@@ -1,5 +1,3 @@
-$("#footer").load("https://7pub.github.io/cdn-gw/content/fragments/nd2/footer/ #footer");
-
 function cssJqMobile145min() { location.href = "css/jquery.mobile-1.4.5.min.css"; } //[CSS]
 function cssFa430Min() { location.href = "css/font-awesome.4.3.0.min.css"; } //[CSS]
 function cssWaves072Min() { location.href = "css/waves-0.7.2.min.css"; } //[CSS]
