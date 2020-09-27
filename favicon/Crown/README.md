@@ -1,20 +1,5 @@
 <hr>
 
-## tl;tr;
-### How to run from source:
-Ensure that you have NodeJS LTS installed.<br>
-git clone https://github.com/infin1tyy/snapdrop-desktop.git then npm install && npm start. That's it!
-
-### How to build from source:
-Ensure that you have NodeJS LTS installed.<br>
-git clone https://github.com/infin1tyy/snapdrop-desktop.git then npm install.
-
-+ Windows: npm run package-win
-+ Linux: npm run package-linux
-+ macOS: npm run package-mac
-
-<hr>
-
 <p align="center">
 
 <a style="display:none" href="favicon-16x16.png" target="_blank">
@@ -46,13 +31,18 @@ git clone https://github.com/infin1tyy/snapdrop-desktop.git then npm install.
 
 </p>
 
-## Hosted Version: 
+<p style="font-size:2em" align="center"><small>VARIANTE1</small><br>
+<strong>Schnell & Sauber</strong></p>
 
-### Kurzanleitung:
+## Was sind Favicons?
+Favicons sind kleine 16x16-Symboldateien, die neben der URL Ihrer Website in der Adressleiste eines Browsers angezeigt werden. Darüber hinaus werden sie häufig neben dem Namen Ihrer Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten eines Benutzers angezeigt, damit der Benutzer sich leichter zwischen anderen Sites identifizieren kann.
 
-1) Folgenden Code kopieren und im Kopfbereich <strong>```<head>```</strong> deines HTML-Dokuments einfügen.<br>
-2) fine
-		
+
+> ### Kurzanleitung:
+> 
+	1) Folgenden Code kopieren und im Kopfbereich <strong>```<head>```</strong> deines HTML-Dokuments einfügen.<br>
+	2) fine
+
 	#START: STRG+C from here
 		<link rel="apple-touch-icon" sizes="57x57" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-60x60.png">
@@ -78,12 +68,36 @@ git clone https://github.com/infin1tyy/snapdrop-desktop.git then npm install.
 	#ENDE:STGR+C till here
 
 <hr>
-<br>
+<p align="center">
+<a style="display:none" href="favicon-16x16.png" target="_blank">
+<img src="favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" /></a>
+<a style="display:none" href="favicon-32x32.png" target="_blank">
+<img src="favicon-32x32.png" alt="favicon-32x32" title="favicon-32x32" /></a>
+<a style="display:none" href="android-icon-48x48.png" target="_blank">
+<img src="android-icon-48x48.png" alt="android-icon-48x48" title="android-icon-48x48" /></a>
+<a style="display:none" href="ms-icon-70x70.png" target="_blank">
+<img src="ms-icon-70x70.png" alt="ms-icon-70x70" title="ms-icon-70x70" /></a>
+<a style="display:unset" href="favicon-96x96.png" target="_blank">
+<img src="favicon-96x96.png" alt="favicon-96x96" title="favicon-96x96" /></a>
+<a style="display:none" href="ms-icon-70x70.png" target="_blank">
+<img src="ms-icon-70x70.png" alt="ms-icon-70x70" title="ms-icon-70x70" /></a>
+<a style="display:none" href="android-icon-48x48.png" target="_blank">
+<img src="android-icon-48x48.png" alt="android-icon-48x48" title="android-icon-48x48" /></a>
+<a style="display:none" href="favicon-32x32.png" target="_blank">
+<img src="favicon-32x32.png" alt="favicon-32x32" title="favicon-32x32" /></a>
+<a style="display:none" href="favicon-16x16.png" target="_blank">
+<img src="favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" /></a>
+</p>
+<p style="font-size:2em" align="center"><small>VARIANTE2</small><br>
+<strong>Download & Gespeichert</strong></p>
 
-### Kurzanleitung: *Download Version*
+## Was sind App-Symbole?
+App-Symbole sind die Bilder, die Sie auf Ihrem Smartphone drücken, um eine Anwendung zu starten. Da neuere Telefone mit Bildschirmen mit höherer Auflösung veröffentlicht werden, sind App-Symbole mit höherer Auflösung erforderlich. Entwickler möchten weiterhin die Unterstützung für ältere Telefone mit geringerer Auflösung beibehalten. Wenn Sie also ein App-Symbol erstellen, müssen Sie mehrere Größenvarianten desselben Bildes erstellen. Dies gilt für alle Smartphones wie das iPhone und Android sowie für Tablets wie das iPad.
 
-1) Speichere den Download im Stammverzeichniss deines Projekts.<br>
-2) Den folgenden Code im Kopfbereich <head> deines HTML-Dokuments einfügen
+
+> ### Kurzanleitung:
+	1) Speichere den Download im Stammverzeichniss deines Projekts.<br>
+	2) Den folgenden Code im Kopfbereich <head> deines HTML-Dokuments einfügen
 
 
 	#START: STRG+C from here
@@ -109,14 +123,6 @@ git clone https://github.com/infin1tyy/snapdrop-desktop.git then npm install.
 		<meta name="theme-color" content="#ffffff">
 		#PROVIDED WITH LOVE BY CALI
 	#ENDE:STGR+C till here
-
-<hr>
-
-## Was sind Favicons?
-Favicons sind kleine 16x16-Symboldateien, die neben der URL Ihrer Website in der Adressleiste eines Browsers angezeigt werden. Darüber hinaus werden sie häufig neben dem Namen Ihrer Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten eines Benutzers angezeigt, damit der Benutzer sich leichter zwischen anderen Sites identifizieren kann.
-
-## Was sind App-Symbole?
-App-Symbole sind die Bilder, die Sie auf Ihrem Smartphone drücken, um eine Anwendung zu starten. Da neuere Telefone mit Bildschirmen mit höherer Auflösung veröffentlicht werden, sind App-Symbole mit höherer Auflösung erforderlich. Entwickler möchten weiterhin die Unterstützung für ältere Telefone mit geringerer Auflösung beibehalten. Wenn Sie also ein App-Symbol erstellen, müssen Sie mehrere Größenvarianten desselben Bildes erstellen. Dies gilt für alle Smartphones wie das iPhone und Android sowie für Tablets wie das iPad.
 
 <hr>
 
