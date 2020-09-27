@@ -39,69 +39,74 @@ App-Symbole sind die Bilder, die Sie auf Ihrem Smartphone drücken, um eine Anwe
 ### Wie verwende ich ein Favicon?
 Nachdem Du deine Icons selbst bereitstellen willst, lade das Iconset runter und speichere es im Stammverzeichnis deiner Seite oder App ab. Danach musst im Kopfteil deines HTML-Dokuments den Pfad angeben, damit die Icons auch gefunden und angezwit werden. 
 
----
 
-### Los geht's
+<hr>
 
-	+ Platziere den Code im Kopfbereich  <strong>```<head>```</strong> deines HTML-Dokuments. 
-	+ Ein Verweis  <strong>```<link>```</strong> muss für jedes Icon erstellt werden.
-
+## tl;tr;
 <br>
+## Hosted Version: 
 
-**(Hosted Version)** Verwende die nachfolgenden Links wenn du keine Icons downloaden willst! 
+### Kurzanleitung:
+1) Folgenden Code kopieren und im Kopfbereich <strong>```<head>```</strong> deines HTML-Dokuments einfügen.<br>
+2) Das wars
 
-	<link rel="apple-touch-icon" sizes="57x57" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-76x76.png">
-	
-	<link rel="apple-touch-icon" sizes="114x114" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-180x180.png">
-	
-	<link rel="icon" type="image/png" sizes="192x192"  href="7pub.github.io/cdn-gw/favicon/Crown/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-16x16.png">
-	<link rel="manifest" href="7pub.github.io/cdn-gw/favicon/Crown/manifest.json">
-	
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-
-	# HOSTET WITH LOVE BY CALI 
-
-
-<br>
-**(Downloaded Version)** Verwende die nachfolgenden Links wenn du keine Icons downloaden willst! 
-**PROVIDED WITH LOVE BY CALI** *Verwende diese Links für runter geladene Iconset!* (Download-Version)
-	
+		
 	# START: STRG+C from here
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	
-	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	
-	# PROVIDED WITH LOVE BY CALI
+		<link rel="apple-touch-icon" sizes="57x57" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-76x76.png">
+		
+		<link rel="apple-touch-icon" sizes="114x114" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-180x180.png">
+		
+		<link rel="icon" type="image/png" sizes="192x192"  href="7pub.github.io/cdn-gw/favicon/Crown/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-16x16.png">
+		<link rel="manifest" href="7pub.github.io/cdn-gw/favicon/Crown/manifest.json">
+		
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		# PROVIDED WITH LOVE BY CALI
 	# ENDE:STGR+C till here
 
+<hr>
+<br>
+## Download Version
+
+### Kurzanleitung:
+1) Speichere den Download im Stammverzeichniss deines Projekts.<br>
+2) Den folgenden Code im Kopfbereich <head> deines HTML-Dokuments einfügen
 
 
+	# START: STRG+C from here
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+		
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+		
+		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		# PROVIDED WITH LOVE BY CALI
+	# ENDE:STGR+C till here
+
+<hr>
+<br>
