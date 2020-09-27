@@ -39,7 +39,6 @@ App-Symbole sind die Bilder, die Sie auf Ihrem Smartphone drücken, um eine Anwe
 ### Wie verwende ich ein Favicon?
 Nachdem Du deine Icons selbst bereitstellen willst, lade das Iconset runter und speichere es im Stammverzeichnis deiner Seite oder App ab. Danach musst im Kopfteil deines HTML-Dokuments den Pfad angeben, damit die Icons auch gefunden und angezwit werden. 
 
-
 <hr>
 
 ## tl;tr;
@@ -48,8 +47,7 @@ Nachdem Du deine Icons selbst bereitstellen willst, lade das Iconset runter und 
 
 ### Kurzanleitung:
 1) Folgenden Code kopieren und im Kopfbereich <strong>```<head>```</strong> deines HTML-Dokuments einfügen.<br>
-2) Das wars
-
+2) fine
 		
 	# START: STRG+C from here
 		<link rel="apple-touch-icon" sizes="57x57" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-57x57.png">
