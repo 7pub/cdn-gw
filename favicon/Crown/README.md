@@ -1,4 +1,20 @@
 <hr>
+
+## tl;tr;
+### How to run from source:
+Ensure that you have NodeJS LTS installed.<br>
+git clone https://github.com/infin1tyy/snapdrop-desktop.git then npm install && npm start. That's it!
+
+### How to build from source:
+Ensure that you have NodeJS LTS installed.<br>
+git clone https://github.com/infin1tyy/snapdrop-desktop.git then npm install.
+
++ Windows: npm run package-win
++ Linux: npm run package-linux
++ macOS: npm run package-mac
+
+<hr>
+
 <p align="center">
 
 <a style="display:none" href="favicon-16x16.png" target="_blank">
@@ -30,19 +46,6 @@
 
 </p>
 
-## Was sind Favicons?
-Favicons sind kleine 16x16-Symboldateien, die neben der URL Ihrer Website in der Adressleiste eines Browsers angezeigt werden. Darüber hinaus werden sie häufig neben dem Namen Ihrer Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten eines Benutzers angezeigt, damit der Benutzer sich leichter zwischen anderen Sites identifizieren kann.
-
-## Was sind App-Symbole?
-App-Symbole sind die Bilder, die Sie auf Ihrem Smartphone drücken, um eine Anwendung zu starten. Da neuere Telefone mit Bildschirmen mit höherer Auflösung veröffentlicht werden, sind App-Symbole mit höherer Auflösung erforderlich. Entwickler möchten weiterhin die Unterstützung für ältere Telefone mit geringerer Auflösung beibehalten. Wenn Sie also ein App-Symbol erstellen, müssen Sie mehrere Größenvarianten desselben Bildes erstellen. Dies gilt für alle Smartphones wie das iPhone und Android sowie für Tablets wie das iPad.
-
-### Wie verwende ich ein Favicon?
-Nachdem Du deine Icons selbst bereitstellen willst, lade das Iconset runter und speichere es im Stammverzeichnis deiner Seite oder App ab. Danach musst im Kopfteil deines HTML-Dokuments den Pfad angeben, damit die Icons auch gefunden und angezwit werden. 
-
-<hr>
-
-## tl;tr;
-<br>
 ## Hosted Version: 
 
 ### Kurzanleitung:
@@ -107,4 +110,46 @@ Nachdem Du deine Icons selbst bereitstellen willst, lade das Iconset runter und 
 	# ENDE:STGR+C till here
 
 <hr>
-<br>
+
+## Was sind Favicons?
+Favicons sind kleine 16x16-Symboldateien, die neben der URL Ihrer Website in der Adressleiste eines Browsers angezeigt werden. Darüber hinaus werden sie häufig neben dem Namen Ihrer Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten eines Benutzers angezeigt, damit der Benutzer sich leichter zwischen anderen Sites identifizieren kann.
+
+## Was sind App-Symbole?
+App-Symbole sind die Bilder, die Sie auf Ihrem Smartphone drücken, um eine Anwendung zu starten. Da neuere Telefone mit Bildschirmen mit höherer Auflösung veröffentlicht werden, sind App-Symbole mit höherer Auflösung erforderlich. Entwickler möchten weiterhin die Unterstützung für ältere Telefone mit geringerer Auflösung beibehalten. Wenn Sie also ein App-Symbol erstellen, müssen Sie mehrere Größenvarianten desselben Bildes erstellen. Dies gilt für alle Smartphones wie das iPhone und Android sowie für Tablets wie das iPad.
+
+<hr>
+
+
+## 📄 License
+
+## | DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE |
+
+| MACHEN DAMIT WAS VERDAMMT NOCHMAL DU AUCH IMMER MIT DIESER ÖFFENTLICHE LIZENZ MACHEN WILST |
+
+              DO WHAT YOU WANT TO - PUBLIC LICENSE
+                    Version 2, December 2004
+
+Jeder darf diese Lizenz beim Wort nehmen. Es wird nichts untersagt und ausdrücklich alles erlaubt. Es interresiert wirklich niemanden. Erwähnt ist das kopieren und verbreiten oder modifizieren dieser Lizenz. Kopien dieses Lizenzdokuments und deren Änderung sind so lange zulässig
+wie der Name geändert wird.
+
+ Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO DO.
+  1. Fine/Ende/End/FU
+
+|   | Version.02 |
+| - | - |
+| Copyright (C) 2019 Karl Achleitner theorem.system@protonmail.com | ![Crown](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png) |
+
+> Weitere Informationen finden Sie unter [http://unlicense.org](http://unlicense.org)
+
+
+**Credits:**<br>
+| *The NodeJS team* | *The Electron team* | *The people over at Electron Packager* | *Cali Run* |
