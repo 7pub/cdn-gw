@@ -5,21 +5,19 @@
     </a>
 </p>
 <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
+<div class="BtnGroup">
+<a href="/7pub/cdn-gw/raw/master/favicon/Crown/apple-icon-57x57.png" id="raw-url" role="button" class="btn btn-sm BtnGroup-item ">Download</a>
+</div>
+<div>
+<a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform" data-platforms="windows,mac" href="x-github-client://openRepo/https://github.com/7pub/cdn-gw?branch=master&amp;filepath=favicon%2FCrown%2Fapple-icon-57x57.png" aria-label="Open this file in GitHub Desktop" data-ga-click="Repository, open with desktop">
+  <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
+</a>
 
-    <div class="BtnGroup">
-      <a href="/7pub/cdn-gw/raw/master/favicon/Crown/apple-icon-57x57.png" id="raw-url" role="button" class="btn btn-sm BtnGroup-item ">Download</a>
-    </div>
-
-    <div>
-          <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform" data-platforms="windows,mac" href="x-github-client://openRepo/https://github.com/7pub/cdn-gw?branch=master&amp;filepath=favicon%2FCrown%2Fapple-icon-57x57.png" aria-label="Open this file in GitHub Desktop" data-ga-click="Repository, open with desktop">
-              <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
-          </a>
-
-          <!-- '"` --><!-- </textarea></xmp> --><form class="inline-form" action="/7pub/cdn-gw/delete/master/favicon/Crown/apple-icon-57x57.png" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="who9+RcFEfMgSH1CuqA/GH+t9UTm+zPAiAzObs21Iy07LvI0NEOqcsga8TgxsMGHNKsr3MlIhwD3qGhd7MKoYw==">
-            <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit" aria-label="Delete this file" data-disable-with="">
-              <svg class="octicon octicon-trashcan" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
-            </button>
-</form>    </div>
+<!-- '"` --><!-- </textarea></xmp> --><form class="inline-form" action="/7pub/cdn-gw/delete/master/favicon/Crown/apple-icon-57x57.png" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="who9+RcFEfMgSH1CuqA/GH+t9UTm+zPAiAzObs21Iy07LvI0NEOqcsga8TgxsMGHNKsr3MlIhwD3qGhd7MKoYw==">
+<button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit" aria-label="Delete this file" data-disable-with="">
+  <svg class="octicon octicon-trashcan" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
+</button>
+</form></div>
   </div>
 <br>
 
