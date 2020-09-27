@@ -85,7 +85,7 @@ git clone https://github.com/infin1tyy/snapdrop-desktop.git then npm install.
 2) Den folgenden Code im Kopfbereich <head> deines HTML-Dokuments einfügen
 
 
-	# START: STRG+C from here
+	#START: STRG+C from here
 		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -106,8 +106,8 @@ git clone https://github.com/infin1tyy/snapdrop-desktop.git then npm install.
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
-		# PROVIDED WITH LOVE BY CALI
-	# ENDE:STGR+C till here
+		#PROVIDED WITH LOVE BY CALI
+	#ENDE:STGR+C till here
 
 <hr>
 
