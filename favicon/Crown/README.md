@@ -1,5 +1,6 @@
 #
-<center>
+
+<p align="center">
 <a href="favicon-16x16.png" target="_blank">
     <img src="favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" />
 </a>
@@ -27,6 +28,6 @@
 <a href="favicon-16x16.png" target="_blank">
     <img src="favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" />
 </a>
-</center>
+</p>
 
 #
