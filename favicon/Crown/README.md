@@ -74,6 +74,7 @@
 
 #
 ## Inhaltsverzeichnis
+
 <p align="center" style="font-size:2.5em"></p>
 
 | ARTIKEL | GRÖSSE | RAW Address |
