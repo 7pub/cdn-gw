@@ -1,3 +1,5 @@
+<body style="background-color:d4d5d6; font-size: 0.8em;">
+
 ## 📄 License
 
 ## | DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE |
