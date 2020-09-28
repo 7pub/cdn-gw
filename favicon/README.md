@@ -1,7 +1,7 @@
  [![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)
  
 <center>
-    <img src="mathematical_symbol_fight.png" alt="mathematical_symbol_fight" title="mathematical_symbol_fight" name="mathematical_symbol_fight" style="width:100%"/>
+    <img src="mathematical_symbol_fight-rework.png" alt="mathematical_symbol_fight" title="mathematical_symbol_fight" name="mathematical_symbol_fight" style="width:100%"/>
 </center>
 <p align="right"><a href="https://www.explainxkcd.com/wiki/images/9/99/mathematical_symbol_fight.png" target="_blank">Bildverweis</a></p>
 <br>
