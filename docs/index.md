@@ -5,56 +5,52 @@
 <br>
 <small></small>
 <p align="center">
-<a style="display:none" href="../favicon-16x16.png" target="_blank">
-<img src="../../favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" /></a>
-<a style="display:none" href="../favicon-32x32.png" target="_blank">
-<img src="../../favicon-32x32.png" alt="favicon-32x32" title="favicon-32x32" /></a>
-<a style="display:none" href="android-icon-48x48.png" target="_blank">
-<img src="android-icon-48x48.png" alt="android-icon-48x48" title="android-icon-48x48" /></a>
-<a style="display:none" href="ms-icon-70x70.png" target="_blank">
-<img src="ms-icon-70x70.png" alt="ms-icon-70x70" title="ms-icon-70x70" /></a>
-<a style="display:unset" href="../favicon-96x96.png" target="_blank">
-<img src="../../favicon-96x96.png" alt="favicon-96x96" title="favicon-96x96" /></a>
-<a style="display:none" href="ms-icon-70x70.png" target="_blank">
-<img src="ms-icon-70x70.png" alt="ms-icon-70x70" title="ms-icon-70x70" /></a>
-<a style="display:none" href="android-icon-48x48.png" target="_blank">
-<img src="android-icon-48x48.png" alt="android-icon-48x48" title="android-icon-48x48" /></a>
-<a style="display:none" href="../favicon-32x32.png" target="_blank">
-<img src="../../favicon-32x32.png" alt="favicon-32x32" title="favicon-32x32" /></a>
-<a style="display:none" href="../favicon-16x16.png" target="_blank">
-<img src="../../favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" /></a>
+<a style="display:unset" href="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon-16x16.png" target="_blank">
+<img src="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" /></a>
+<a style="display:unset" href="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon-32x32.png" target="_blank">
+<img src="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon-32x32.png" alt="favicon-32x32" title="favicon-32x32" /></a>
+<a style="display:unset" href="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/android-icon-48x48.png" target="_blank">
+<img src="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/android-icon-48x48.png" alt="android-icon-48x48" title="android-icon-48x48" /></a>
+<a style="display:unset" href="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-70x70.png" target="_blank">
+<img src="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-70x70.png" alt="ms-icon-70x70" title="ms-icon-70x70" /></a>
+<a style="display:unset" href="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon-96x96.png" target="_blank">
+<img src="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon-96x96.png" alt="favicon-96x96" title="favicon-96x96" /></a>
+<a style="display:unset" href="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-70x70.png" target="_blank">
+<img src="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-70x70.png" alt="ms-icon-70x70" title="ms-icon-70x70" /></a>
+<a style="display:unset" href="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/android-icon-48x48.png" target="_blank">
+<img src="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/android-icon-48x48.png" alt="android-icon-48x48" title="android-icon-48x48" /></a>
+<a style="display:unset" href="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon-32x32.png" target="_blank">
+<img src="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon-32x32.png" alt="favicon-32x32" title="favicon-32x32" /></a>
+<a style="display:unset" href="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon-16x16.png" target="_blank">
+<img src="https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" /></a>
 </p>
 </center>
 
 <center><h1>CaliCrown</h1></center>
 ---
-> Beschreibung dieser :
+> Allgemeines über Favicons:
 
 ## Was sind Favicons?
-Favicons sind kleine Symboldateien, die neben der URL Ihrer Website in der Adressleiste eines Browsers angezeigt werden. Darüber hinaus werden sie häufig neben dem Namen Ihrer Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten eines Benutzers angezeigt, damit der Benutzer sich leichter zwischen anderen Sites identifizieren kann.
+Favicons sind kleine Symboldateien, die neben der URL von Websiten angezeigt wird. URL kennst du von der Adressleiste deines Browsers wie Google Chrome oder Internet Explorer. Darüber hinaus werden sie häufig neben dem Namen der Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten angezeigt. Letztlich helfen Favicons dabei, sich leichter zurecht zufinden. Als Entwickler bieten Favicons neben Cookies jeden zwischen identifizieren zu können.
+<br>
+<hr>
 <br>
 
-## Verwendungszweck
-Favicons sind kleine Symboldateien, die neben der URL Ihrer Website in der Adressleiste eines Browsers angezeigt werden. Darüber hinaus werden sie häufig neben dem Namen Ihrer Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten eines Benutzers angezeigt, damit der Benutzer sich leichter zwischen anderen Sites identifizieren kann.
+> Absicht dieser Seite:
+
+## Wer nutzt diese hier?
+Alle Favicons, Icons oder Anwendungs-Symbole dieser Seite sind eine öffentlich zugängliche Quelle. Es wird eine Entwicklungsumgebung für Cali simuliert. Darüber hinaus werden sie häufig von nicht-Cali Projekte genutzt. Dieses Github Repository wird von Cali selbst verwaltet. Der Zweck ist eine für Projekte von Cali geforderten Art der Umsetzung. Apps von Cali sind Non-Profit und ohne erkennbaren nutzen.
+<br>
+<hr>
 <br>
 
-- [x] , refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+> Bereitgestellter Code:
 
-<center>
+## Anwendungsbeispiele!
+ Es gibt zwei denkbare Möglichkeiten wie du die Icons für dein Projekt verwenden kannst. Du musst dich nur entscheiden ob du die hier Enthaltenen Icons runterladen und selbst als Quelle zur Verfügung stellen willst. Oder ob du Verweise auf die hier bereitgestellte Quelle in deinem Projekt angibst. ohne viel Aufwand mit den bereitgestellten Codezeilen in  
 
-| First Header | Second Header |
-|---------|---------|
-|  |  |
-|  |  |
+<hr>
 
-</center>
-
-<p>
-Mit dieser Option werden die `Icons` für Dich bereitgestellt. Ein Content Distribution Network, ist ein Netz regional verteilter Server, die über das Internet den Zugriff auf deine Icons garantieren. 
-</p>
 
 1) Folgenden Code kopieren und im Kopfbereich <strong>```<head>```</strong> deines HTML-Dokuments einfügen.<br>
 2) fine
