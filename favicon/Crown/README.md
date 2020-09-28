@@ -1,4 +1,4 @@
-<body style="font-size: 0.8em;">
+<body style="background-color:d4d5d6; font-size: 0.8em;">
 <div align="right">
 
 [![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)
@@ -6,7 +6,6 @@
 <hr>
 
 ## Icons
-
 
 <p align="center">
 <a href="favicon-16x16.png" target="_blank">
@@ -67,17 +66,15 @@
 <meta name="theme-color" content="#ffffff">
 #PROVIDED WITH LOVE BY CALI
 ```
+
 #
 ## Downloads
 
-<a href="https://github.com/7pub/cdn-gw/raw/master/favicon/Crown/3f446392a21bf3d2a08024894cccdb3e.ico.zip">
-    <p align="center" style="font-size:2.5em">ZIP Package</p>
-</a>
+<a href="https://github.com/7pub/cdn-gw/raw/master/favicon/Crown/3f446392a21bf3d2a08024894cccdb3e.ico.zip"><p align="center" style="font-size:2.5em">ZIP Package</p></a>
 
 #
 ## Inhaltsverzeichnis
 <p align="center" style="font-size:2.5em"></p>
-
 
 | ARTIKEL | GRÖSSE | RAW Address |
 |-|-|-|
