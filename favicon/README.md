@@ -1,4 +1,4 @@
-<body style="background-color: rgb(212, 213, 214); font-size: 0.8em;">
+<body style="background-color:#d4d5d6; font-size: 0.8em;">
 <div align="right">
 
 [![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)
