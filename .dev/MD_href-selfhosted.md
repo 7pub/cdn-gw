@@ -1,20 +1,14 @@
 ## Definition und Verwendung
 # 
  Das ``<link>`` Element Definiert die Beziehung zwischen der eigenen internen und einer externen Ressource.
-
-<br>
-
+ 
 Das ``<link>``Tag wird am häufigsten zum Verknüpfen mit externen Stylesheets verwendet.
 Das ``<link>`` ist ein leeres Element und enthält nur Attribute.
 
 #
+##  HEAD-Tag Elemente
 
-##  
-
-<p align="left">Vordruck zum Einfügen in dein Projekt</p>
-Tag Elemente 
-
-```
+```code
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -33,5 +27,4 @@ Tag Elemente
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 ```
-
 #

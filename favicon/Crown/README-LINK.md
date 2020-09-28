@@ -1,75 +1,13 @@
 # Icons & Symbols
-
-```code
-
-<link rel="apple-touch-icon" sizes="57x57" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-76x76.png">
-
-<link rel="apple-touch-icon" sizes="114x114" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-180x180.png">
-
-<link rel="icon" type="image/png" sizes="192x192"  href="7pub.github.io/cdn-gw/favicon/Crown/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-16x16.png">
-<link rel="manifest" href="7pub.github.io/cdn-gw/favicon/Crown/manifest.json">
-
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-#PROVIDED WITH LOVE BY CALI
-
-```
-#
-
-<p align="center">
-
-<a style="display:none" href="favicon-16x16.png" target="_blank">
-<img src="favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" /></a>
-
-<a style="display:none" href="favicon-32x32.png" target="_blank">
-<img src="favicon-32x32.png" alt="favicon-32x32" title="favicon-32x32" /></a>
-
-<a style="display:none" href="android-icon-48x48.png" target="_blank">
-<img src="android-icon-48x48.png" alt="android-icon-48x48" title="android-icon-48x48" /></a>
-
-<a style="display:none" href="ms-icon-70x70.png" target="_blank">
-<img src="ms-icon-70x70.png" alt="ms-icon-70x70" title="ms-icon-70x70" /></a>
-
-<a style="display:unset" href="favicon-96x96.png" target="_blank">
-<img src="favicon-96x96.png" alt="favicon-96x96" title="favicon-96x96" /></a>
-
-<a style="display:none" href="ms-icon-70x70.png" target="_blank">
-<img src="ms-icon-70x70.png" alt="ms-icon-70x70" title="ms-icon-70x70" /></a>
-
-<a style="display:none" href="android-icon-48x48.png" target="_blank">
-<img src="android-icon-48x48.png" alt="android-icon-48x48" title="android-icon-48x48" /></a>
-
-<a style="display:none" href="favicon-32x32.png" target="_blank">
-<img src="favicon-32x32.png" alt="favicon-32x32" title="favicon-32x32" /></a>
-
-<a style="display:none" href="favicon-16x16.png" target="_blank">
-<img src="favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" /></a>
-
-</p>
+##
 
 <p style="font-size:2em" align="center"><small>VARIANTE1</small><br>
 <strong>Schnell & Sauber</strong></p>
 
-#
-## Was sind Favicons?
-Favicons sind kleine 16x16-Symboldateien, die neben der URL Ihrer Website in der Adressleiste eines Browsers angezeigt werden. Darüber hinaus werden sie häufig neben dem Namen Ihrer Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten eines Benutzers angezeigt, damit der Benutzer sich leichter zwischen anderen Sites identifizieren kann.
 
 #
 ## Kurzanleitung:
  
-1) Folgenden Code kopieren und im Kopfbereich <strong>```<head>```</strong> deines HTML-Dokuments einfügen.<br>
-2) fine
 
 ```Code
 <link rel="apple-touch-icon" sizes="57x57" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-57x57.png">
