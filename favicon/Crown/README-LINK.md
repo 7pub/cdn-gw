@@ -1,9 +1,6 @@
-# Icons & Symbols  [![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)
-
+#
 > Vorschau:
 
-<br>
-<small></small>
 <p align="center">
 <a style="display:none" href="favicon-16x16.png" target="_blank">
 <img src="favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" /></a>
@@ -25,18 +22,9 @@
 <img src="favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" /></a>
 </p>
 
-<center><h1>CaliCrown</h1></center>
----
-> Beschreibung dieser :
+<h1 align="center">CaliCrown</h1>
 
-## Zweck dieser Seite
-Favicons sind kleine Symboldateien, die neben der URL Ihrer Website in der Adressleiste eines Browsers angezeigt werden. Darüber hinaus werden sie häufig neben dem Namen Ihrer Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten eines Benutzers angezeigt, damit der Benutzer sich leichter zwischen anderen Sites identifizieren kann.
-<br>
-
-- [x] , refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+# Icons & Symbols
 
 <center>
 
@@ -46,14 +34,12 @@ Favicons sind kleine Symboldateien, die neben der URL Ihrer Website in der Adres
 | Favicon | 16px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon-16x16.png |
 | Favicon | 32px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon-32x32.png |
 | Favicon | 96px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon-96x96.png |
-|-|-|-|
 | Android Icon | 36px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/android-icon-36x36.png |
 | Android Icon | 48px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/android-icon-48x48.png |
 | Android Icon | 72px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/android-icon-72x72.png |
 | Android Icon | 96px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/android-icon-96x96.png |
 | Android Icon | 144px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/android-icon-144x144.png |
 | Android Icon | 192px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/android-icon-192x192.png |
-|-|-|-|
 | Apple Icon | png | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/apple-icon.png|
 | Apple Icon | precomposed | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/android-icon-precomposed.png |
 | Apple Icon | 57px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/apple-icon-57x57.png |
@@ -65,50 +51,38 @@ Favicons sind kleine Symboldateien, die neben der URL Ihrer Website in der Adres
 | Apple Icon | 144px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/apple-icon-144x144.png |
 | Apple Icon | 152px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/apple-icon-152x152.png |
 | Apple Icon | 180px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/apple-icon-180x180.png |
-|-|-|-|
 | Microsoft Icon | 70px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-70x70.png |
 | Microsoft Icon | 144px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-144x144.png |
 | Microsoft Icon | 150px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-150x150.png |
 | Microsoft Icon | 310px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-310x310.png |
-|-|-|-|
 
 </center>
 
-<p>
-Mit dieser Option werden die `Icons` für Dich bereitgestellt. Ein Content Distribution Network, ist ein Netz regional verteilter Server, die über das Internet den Zugriff auf deine Icons garantieren. 
-</p>
+#
 
-1) Folgenden Code kopieren und im Kopfbereich <strong>```<head>```</strong> deines HTML-Dokuments einfügen.<br>
-2) fine
+```code    
+<link rel="apple-touch-icon" sizes="57x57" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-76x76.png">
 
-#START: STRG+C from here
-    
-    <link rel="apple-touch-icon" sizes="57x57" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-76x76.png">
-    
-    <link rel="apple-touch-icon" sizes="114x114" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-180x180.png">
-    
-    <link rel="icon" type="image/png" sizes="192x192"  href="7pub.github.io/cdn-gw/favicon/Crown/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-16x16.png">
-    <link rel="manifest" href="7pub.github.io/cdn-gw/favicon/Crown/manifest.json">
-    
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    #PROVIDED WITH LOVE BY CALI
-#ENDE:STGR+C till here
+<link rel="apple-touch-icon" sizes="114x114" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-180x180.png">
 
-<hr>
+<link rel="icon" type="image/png" sizes="192x192"  href="7pub.github.io/cdn-gw/favicon/Crown/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-16x16.png">
+<link rel="manifest" href="7pub.github.io/cdn-gw/favicon/Crown/manifest.json">
 
-<hr>
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+#PROVIDED WITH LOVE BY CALI
+```
 
 <p align="center">
 
