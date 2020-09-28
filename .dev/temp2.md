@@ -1,3 +1,5 @@
+<body style="background-color: rgb(229,232,237); font-size: 0.8em;">
+
 ## Was sind Favicons?
 Favicons sind kleine 16x16-Symboldateien, die neben der URL Ihrer Website in der Adressleiste eines Browsers angezeigt
 werden. Darüber hinaus werden sie häufig neben dem Namen Ihrer Site in der Liste der geöffneten Registerkarten und
