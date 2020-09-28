@@ -27,7 +27,6 @@
 </center>
 
 <center><h1>CaliCrown</h1></center>
-<hr>
 
 > Allgemeines über Favicons:
 
