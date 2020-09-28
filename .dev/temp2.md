@@ -1,4 +1,4 @@
-<body style="background-color: rgb(229,232,237); font-size: 0.8em;">
+#
 
 ## Was sind Favicons?
 Favicons sind kleine 16x16-Symboldateien, die neben der URL Ihrer Website in der Adressleiste eines Browsers angezeigt
@@ -14,7 +14,4 @@ Entwickler möchten weiterhin die Unterstützung für ältere Telefone mit gerin
 ein App-Symbol erstellen, müssen Sie mehrere Größenvarianten desselben Bildes erstellen. Dies gilt für alle Smartphones
 wie das iPhone und Android sowie für Tablets wie das iPad.
 
-
-#### Die Icons müssen auch gefunden werden können.
-+ Platziere den Code im Kopfbereich <strong>```<head>```</strong> deines HTML-Dokuments.
-+ Einen Verweis <strong>```<link>```</strong> für jedes Icon erstellen.
+#
