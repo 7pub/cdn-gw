@@ -1,0 +1,1 @@
+<button id="copy-meta-tags" class="button is-info">Copy</button>
