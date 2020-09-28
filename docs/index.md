@@ -26,11 +26,7 @@
 </p>
 </center>
 
-<center>
-
-# CaliCrown
-
-</center>
+<p align="center">CaliCrown</p>
 
 > Allgemeines über Favicons:
 
