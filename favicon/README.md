@@ -13,10 +13,8 @@ Favicons & App-Symbole ohne Neugier. Du kannst du den [Generator](https://https:
 #
 ## Wer nutzt diese hier?
 Alle Favicons, Icons oder Anwendungs-Symbole dieser Seite sind eine öffentlich zugängliche Quelle. Es wird eine Entwicklungsumgebung für Cali simuliert. Darüber hinaus werden sie häufig von nicht-Cali Projekte genutzt. Dieses Github Repository wird von Cali selbst verwaltet. Der Zweck ist eine für Projekte von Cali geforderten Art der Umsetzung. Apps von Cali sind Non-Profit und ohne erkennbaren nutzen.
-<br>
-<br>
-<hr>
 
+#
 ## Anwendungsbeispiele!
  Es gibt zwei denkbare Möglichkeiten wie du die Icons für dein Projekt verwenden kannst. Du musst dich nur entscheiden ob du die hier Enthaltenen Icons runterladen und selbst als Quelle zur Verfügung stellen willst. Oder ob du Verweise auf die hier bereitgestellte Quelle in deinem Projekt angibst. ohne viel Aufwand mit den bereitgestellten Codezeilen in  
 
@@ -40,6 +38,5 @@ Grund auf neu erstellen. Darüber hinaus können Sie mit dem Editor generierte F
 bestmögliche Ergebnis zu erzielen.
 
 #
-
-
+##
 Favicons & App-Symbole ohne Neugier kannst mit den [Generator](https://https://www.favicon-generator.org/) von DansTools selbst Erstellen und dann deine eigenen Icons verwenden.
