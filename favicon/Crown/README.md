@@ -34,9 +34,6 @@
 
 #
 
-
-<center>
-
 | ARTIKEL | GRÖSSE | RAW Address |
 |-|-|-|
 | Favicon | ico | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/favicon.ico |
@@ -64,5 +61,3 @@
 | Microsoft Icon | 144px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-144x144.png |
 | Microsoft Icon | 150px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-150x150.png |
 | Microsoft Icon | 310px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-310x310.png |
-
-</center>
