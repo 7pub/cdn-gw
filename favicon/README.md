@@ -1,19 +1,13 @@
- <!--body style="background-color: rgb(229,232,237); font-size: 0.8em;"-->
- [![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)
-<hr> 
-<center>
-    <img src="mathematical_symbol_fight-rework.png" alt="mathematical_symbol_fight" title="mathematical_symbol_fight" name="mathematical_symbol_fight" style="width:100%"/>
-</center>
-<p align="right"><a href="https://www.explainxkcd.com/wiki/images/9/99/mathematical_symbol_fight.png" target="_blank">Bildverweis</a></p>
+<body style="background-color: rgb(212, 213, 214); font-size: 0.8em;">
+<div align="right">
+
+[![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)
+</div>
 
 #
-<br>
-<br>
 
 ## Was sind Favicons?
-#
-Favicons sind kleine Symboldateien, die neben der URL von Websiten angezeigt wird. URL kennst du von der Adressleiste deines Browsers wie Google Chrome oder Internet Explorer. Darüber hinaus werden sie häufig neben dem Namen der Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten angezeigt. Letztlich helfen Favicons dabei, sich leichter zurecht zufinden. Als Entwickler bieten Favicons neben Cookies jeden zwischen identifizieren zu können.
- 
+Favicons sind kleine Symboldateien, die neben der URL von Websiten angezeigt wird. URL kennst du von der Adressleiste deines Browsers wie Google Chrome oder Internet Explorer. Darüber hinaus werden sie häufig neben dem Namen der Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten angezeigt. Letztlich helfen Favicons dabei, sich leichter zurecht zufinden. Als Entwickler bieten Favicons neben Cookies jeden zwischen identifizieren zu können
 #
 
 ## Wer nutzt diese hier?
