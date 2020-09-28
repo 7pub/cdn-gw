@@ -1,30 +1,98 @@
-## Welcome to GitHub Pages
+# Icons & Symbols  [![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)
 
-You can use the [editor on GitHub](https://github.com/7pub/cdn-gw/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+> Vorschau:
+
+<br>
+<small></small>
+<p align="center">
+<a style="display:none" href="favicon-16x16.png" target="_blank">
+<img src="favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" /></a>
+<a style="display:none" href="favicon-32x32.png" target="_blank">
+<img src="favicon-32x32.png" alt="favicon-32x32" title="favicon-32x32" /></a>
+<a style="display:none" href="android-icon-48x48.png" target="_blank">
+<img src="android-icon-48x48.png" alt="android-icon-48x48" title="android-icon-48x48" /></a>
+<a style="display:none" href="ms-icon-70x70.png" target="_blank">
+<img src="ms-icon-70x70.png" alt="ms-icon-70x70" title="ms-icon-70x70" /></a>
+<a style="display:unset" href="favicon-96x96.png" target="_blank">
+<img src="favicon-96x96.png" alt="favicon-96x96" title="favicon-96x96" /></a>
+<a style="display:none" href="ms-icon-70x70.png" target="_blank">
+<img src="ms-icon-70x70.png" alt="ms-icon-70x70" title="ms-icon-70x70" /></a>
+<a style="display:none" href="android-icon-48x48.png" target="_blank">
+<img src="android-icon-48x48.png" alt="android-icon-48x48" title="android-icon-48x48" /></a>
+<a style="display:none" href="favicon-32x32.png" target="_blank">
+<img src="favicon-32x32.png" alt="favicon-32x32" title="favicon-32x32" /></a>
+<a style="display:none" href="favicon-16x16.png" target="_blank">
+<img src="favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" /></a>
+</p>
+</center>
+
+<center><h1>CaliCrown</h1></center>
+---
+> Beschreibung dieser :
+
+## Was sind Favicons?
+Favicons sind kleine Symboldateien, die neben der URL Ihrer Website in der Adressleiste eines Browsers angezeigt werden. Darüber hinaus werden sie häufig neben dem Namen Ihrer Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten eines Benutzers angezeigt, damit der Benutzer sich leichter zwischen anderen Sites identifizieren kann.
+<br>
+
+## Verwendungszweck
+Favicons sind kleine Symboldateien, die neben der URL Ihrer Website in der Adressleiste eines Browsers angezeigt werden. Darüber hinaus werden sie häufig neben dem Namen Ihrer Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten eines Benutzers angezeigt, damit der Benutzer sich leichter zwischen anderen Sites identifizieren kann.
+<br>
+
+- [x] , refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+<center>
+
+| First Header | Second Header |
+|---------|---------|
+|  |  |
+|  |  |
+
+</center>
+
+<p>
+Mit dieser Option werden die `Icons` für Dich bereitgestellt. Ein Content Distribution Network, ist ein Netz regional verteilter Server, die über das Internet den Zugriff auf deine Icons garantieren. 
+</p>
+
+1) Folgenden Code kopieren und im Kopfbereich <strong>```<head>```</strong> deines HTML-Dokuments einfügen.<br>
+2) fine
+
+#START: STRG+C from here
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-76x76.png">
+    
+    <link rel="apple-touch-icon" sizes="114x114" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-180x180.png">
+    
+    <link rel="icon" type="image/png" sizes="192x192"  href="7pub.github.io/cdn-gw/favicon/Crown/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-16x16.png">
+    <link rel="manifest" href="7pub.github.io/cdn-gw/favicon/Crown/manifest.json">
+    
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    #PROVIDED WITH LOVE BY CALI
+#ENDE:STGR+C till here
+
+<hr>
+
+Favicons & App-Symbole ohne Neugier. Du kannst du den [Generator](https://https://www.favicon-generator.org/) von DansTools zum Erstellen deiner Icons verwenden.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
@@ -35,3 +103,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+Content Delivery Node: Maintained by [Calirun](https://https://www.cali.run/) with Love.<br>
