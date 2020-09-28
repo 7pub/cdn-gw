@@ -20,7 +20,8 @@
 <img src="favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" /></a>
 
 #
-## Metatag Elements 
+## Metatag Elements
+
 ```code
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">

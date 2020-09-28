@@ -1,12 +1,10 @@
-<body style="background-color:d4d5d6; font-size: 0.8em;">
 <div align="right">
 
-[![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)
-</div>
-<hr>
+[![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)</div>
+<body style="background-color:d4d5d6; font-size: 0.8em;">
 
-## Iconset 
-#
+# Iconset
+
 <p align="center">
  <a href="favicon-16x16.png" target="_blank"><img src="favicon-16x16.png"/></a>
  <a href="favicon-32x32.png" target="_blank"><img src="favicon-32x32.png"/></a>
@@ -18,32 +16,35 @@
  <a href="favicon-32x32.png" target="_blank"><img src="favicon-32x32.png"/></a>
  <a href="favicon-16x16.png" target="_blank"><img src="favicon-16x16.png"/></a>
 </p>
-<hr><br><br>
+<hr>
 
 ## Kurzanleitung
-#
+
  1) Folgenden Code kopieren und im Kopfbereich <strong>```<head>```</strong> deines HTML-Dokuments einfügen.<br>
  2) Speichere den Download im Stammverzeichniss deines Projekts.<br>
  3) Den folgenden Code im Kopfbereich <head> deines HTML-Dokuments einfügen
  4) fine
 
-<hr><br><br>
-
-|Vorschau|![](favicon-16x16.png)|![](favicon-32x32.png)|![](apple-icon-57x57.png)|![](apple-icon-60x60.png)|![](android-icon-72x72.png)|![](apple-icon-76x76.png)|![](android-icon-96x96.png)|![](apple-icon-114x114.png)|![](apple-icon-120x120.png)|![](android-icon-144x144.png)|![](apple-icon-152x152.png)|![](apple-icon-180x180.png)|![](android-icon-192x192.png)|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|PIXEL|16|32|57|60|72|76|96|114|120|144|152|180|192|
-|TYPE|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+<hr>
 
 ## Downloads
+
 
 <a href="https://github.com/7pub/cdn-gw/raw/master/favicon/Crown/3f446392a21bf3d2a08024894cccdb3e.ico.zip">
 <p align="center" style="font-size:2.0em">ZIP Package</p>
 </a>
 
-## Selfhost
+#
+## Definition und Verwendung
 
++ Das ``<link>`` -Element Definiert die Beziehung zwischen der eigenen internen und einer externen Ressource.
++ Das ``<link>`` -Tag wird am häufigsten zum Verknüpfen mit externen Stylesheets verwendet.
++ Das ``<link>`` -ist ein leeres Element und enthält nur Attribute.
+
+#
+## HEAD Tag Element
 ```code
+
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -61,12 +62,13 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-#PROVIDED WITH LOVE BY CALI
+
+# PROVIDED WITH LOVE BY CALI
+
 ```
 
-<br><br><hr>
-
-# Inhaltsverzeichnis
+#
+## Inhaltsverzeichnis
 
 | ARTIKEL | GRÖSSE | RAW Address |
 |-|-|-|
@@ -95,9 +97,16 @@
 | Microsoft Icon | 144px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-144x144.png |
 | Microsoft Icon | 150px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-150x150.png |
 | Microsoft Icon | 310px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-310x310.png |
+<br>
 
 #
-## FQDN - Full Quaified Domain Name
+> #
+> #
+> #
+> #
+<hr>
+
+# FQDN - Full Quaified Domain Name
 
 ```code
 <link rel="apple-touch-icon" sizes="57x57" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-57x57.png">
@@ -121,3 +130,25 @@
 #PROVIDED WITH LOVE BY CALI
 
 ```
+
+
+|  Vorschau                     | Pixel   | ------- | ------- | ------- | ------- | 
+|  ----------------------------:| ------- | ------- | ------- | ------- | ------- | 
+| ![](favicon-16x16.png)        | <strong>16x16</strong>   | ------- | ------- | ------- | ------- | 
+| ![](favicon-32x32.png)        | <strong>32x32</strong>   | ------- | ------- | ------- | ------- | 
+| ![](apple-icon-57x57.png)     | <strong>57x57</strong>   | ------- | ------- | ------- | ------- | 
+| ![](apple-icon-60x60.png)     | <strong>60x60</strong>   | ------- | ------- | ------- | ------- | 
+| ![](android-icon-72x72.png)   | <strong>72x72</strong>   | ------- | ------- | ------- | ------- | 
+| ![](apple-icon-76x76.png)     | <strong>76x76</strong>   | ------- | ------- | ------- | ------- | 
+| ![](android-icon-96x96.png)   | <strong>96x96</strong>   | ------- | ------- | ------- | ------- | 
+| ![](apple-icon-114x114.png)   | <strong>114x114</strong> | ------- | ------- | ------- | ------- | 
+| ![](apple-icon-120x120.png)   | <strong>120x120</strong> | ------- | ------- | ------- | ------- | 
+| ![](android-icon-144x144.png) | <strong>144x144</strong> | ------- | ------- | ------- | ------- | 
+| ![](apple-icon-152x152.png)   | <strong>152x152</strong> | ------- | ------- | ------- | ------- | 
+| ![](apple-icon-180x180.png)   | <strong>180x180</strong> | ------- | ------- | ------- | ------- | 
+| ![](android-icon-192x192.png) | <strong>192x192</strong> | ------- | ------- | ------- | ------- | 
+
+
+|16|32|57|60|72|76|96|114|120|144|152|180|192|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
