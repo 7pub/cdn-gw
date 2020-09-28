@@ -1,15 +1,16 @@
-<body style="background-color:#d4d5d6; font-size: 0.8em;">
+<!--body style="background-color:#d4d5d6; font-size: 0.8em;"-->
 <div align="right">
 
 [![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)
 </div>
 
 #
-
 ## Was sind Favicons?
 Favicons sind kleine Symboldateien, die neben der URL von Websiten angezeigt wird. URL kennst du von der Adressleiste deines Browsers wie Google Chrome oder Internet Explorer. Darüber hinaus werden sie häufig neben dem Namen der Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten angezeigt. Letztlich helfen Favicons dabei, sich leichter zurecht zufinden. Als Entwickler bieten Favicons neben Cookies jeden zwischen identifizieren zu können
-#
 
+Favicons & App-Symbole ohne Neugier. Du kannst du den [Generator](https://https://www.favicon-generator.org/) von DansTools zum Erstellen deiner Icons verwenden.
+
+#
 ## Wer nutzt diese hier?
 Alle Favicons, Icons oder Anwendungs-Symbole dieser Seite sind eine öffentlich zugängliche Quelle. Es wird eine Entwicklungsumgebung für Cali simuliert. Darüber hinaus werden sie häufig von nicht-Cali Projekte genutzt. Dieses Github Repository wird von Cali selbst verwaltet. Der Zweck ist eine für Projekte von Cali geforderten Art der Umsetzung. Apps von Cali sind Non-Profit und ohne erkennbaren nutzen.
 <br>
