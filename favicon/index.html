@@ -1,11 +1,11 @@
 <head>
   <title>:)</title>
 
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/customizer.css" rel="stylesheet">
-  <link href="css/jquery.minicolors.css" rel="stylesheet">
+  <link href="https://7pub.github.io/cdn-gw/favicon/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://7pub.github.io/cdn-gw/favicon/css/customizer.css" rel="stylesheet">
+  <link href="https://7pub.github.io/cdn-gw/favicon/css/jquery.minicolors.css" rel="stylesheet">
   <script src="https://7pub.github.io/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery.minicolors.min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/jquery.minicolors.min.js"></script>
   <script>
       $.ajaxPrefilter(function(options,originalOptions,jqXHR){
           options.async = true;});
@@ -25,29 +25,30 @@
     data-a="true" data-i="3" data-d="600" data-l="false" data-et="hover" data-op="false"> Short notation:</span>
 
   <div class="container">
-      <div style="position: fixed;">
-      <!--<div class="pull-right">
-          <textarea id="resultcode" class="span12" rows="2"></textarea>
-        </div>-->
-        <div class="span12 well" id="resultinfo">
-
-        </div>
-        <div class="span12">
-          <button id="setBtn" class="btn btn-primary span3">Einstellungen</button>
-          <p><input type="button" class="btn btn-info span3" value="check all"></p>
-          <a href="#resultinfo" id="result" class="btn btn-large btn-secondary" value="check all">Get the code!</a>
-        </div>
-        <div class="span12 alert alert-error" id="errinfo">
-          <i class="livicon" data-n="warning-alt" data-s="24" data-c="#9d261d" data-op="1"></i>
-          <strong>Please select at least one icon!</strong>
-        </div>
-        <div class="span12">
-          <div class="alert alert-info checkedsummary"></div>
-          <div class="alert alert-info sizesummary"></div>
-        </div>
+    <div style="position: fixed;">
+    <!--<div class="pull-right">
+        <textarea id="resultcode" class="span12" rows="2"></textarea>
+      </div>-->
+      <div class="span12 well" id="resultinfo">
       </div>
+      <div class="span12">
+        <button id="setBtn" class="btn btn-primary span3">Einstellungen</button>
+        <p><input type="button" class="btn btn-info span3" value="check all"></p>
+        <a href="#resultinfo" id="result" class="btn btn-large btn-secondary" value="check all">Get the code!</a>
+      </div>
+      <div class="span12 alert alert-error" id="errinfo">
+        <i class="livicon" data-n="warning-alt" data-s="24" data-c="#9d261d" data-op="1"></i>
+        <strong>Please select at least one icon!</strong>
+      </div>
+      <div class="span12">
+        <div class="alert alert-info checkedsummary"></div>
+        <div class="alert alert-info sizesummary"></div>
+      </div>
+    </div>
   </div>
+
   <span id="calipush" class="calipush"></span>
+  
   <!--resultinfo-->
   <div id="resultinfo" class="modal"><!--The Modal-->
     <div class="modal-content"><!--Modal content-->
@@ -67,6 +68,7 @@
         <textarea id="resultcode" rows="5"></textarea>
     </div>
   </div>
+
   <!--Setting Modal-->
   <div id="settings" class="modal">
     <div class="modal-content">
@@ -219,9 +221,9 @@
       </div>
     </div>
   </div>
+
   <!--end.container-->
-  <pre
-    id="restcode">lDI=lDI.replace(/\"d\":/g,'"duration":').replace(/\"i\":/g,'"init":').replace(/\"f\":/g,'"frames":').replace(/\"fIE\":/g,'"framesIE":').replace(/\"o\":/g,'"opacity":').replace(/\"t\":/g,'"transform":').replace(/\"it\":/g,'"iteration":').replace(/\"sh\":/g,'"shapes":').replace(/\"a\":/g,'"attr":').replace(/\"p\":/g,'"path":').replace(/\"fl\":/g,'"fill":').replace(/\"e\":/g,'"easing":').replace(/\"s\":/g,'"stroke-width":0,"stroke":'),liviconsdata=JSON.parse(lDI),sB=Raphael.svg,vB=Raphael.vml;
+  <pre id="restcode">lDI=lDI.replace(/\"d\":/g,'"duration":').replace(/\"i\":/g,'"init":').replace(/\"f\":/g,'"frames":').replace(/\"fIE\":/g,'"framesIE":').replace(/\"o\":/g,'"opacity":').replace(/\"t\":/g,'"transform":').replace(/\"it\":/g,'"iteration":').replace(/\"sh\":/g,'"shapes":').replace(/\"a\":/g,'"attr":').replace(/\"p\":/g,'"path":').replace(/\"fl\":/g,'"fill":').replace(/\"e\":/g,'"easing":').replace(/\"s\":/g,'"stroke-width":0,"stroke":'),liviconsdata=JSON.parse(lDI),sB=Raphael.svg,vB=Raphael.vml;
     Raphael.fn.createLivicon=function(f,b,g,k,h,c,u,s,v,x,w,y,m){var e=[];g=clone(w);var d=g.shapes.length;s=s?s:g.iteration;var l=[],q=[],t=[],A="s"+y+","+y+",0,0";w=y=!1;if(b.match(/spinner/)){y=!0;var D=jQuery("#"+f),B=function(){if(D.is(":visible")){if(!z){for(var a=0;a< d;a++)e[a].animate(l[a].repeat(Infinity));z=!0}}else if(z){for(a=0;a< d;a++)e[a].stop();z=!1}}}b.match(/morph/)&&(w=!0);for(b=0;b< d;b++){var r=g.shapes[b].init,n;for(n in r)r[n].transform=A+r[n].transform}if(sB)for(b=0;b< d;b++)for(n in r=
     g.shapes[b].frames,r)"transform"in r[n]&&(r[n].transform=A+r[n].transform);else for(b=0;b< d;b++)for(n in r=g.shapes[b].framesIE?g.shapes[b].framesIE:g.shapes[b].frames,r)"transform"in r[n]&&(r[n].transform=A+r[n].transform);for(b=0;b< d;b++)n=g.shapes[b].init.attr,"original"!=k&&(n.fill=k),t.push(n.fill),e[b]=this.path(n.path).attr(n);sB?jQuery("#"+f+" > svg").attr("id","canvas-for-"+f):jQuery("#"+f).children(":first-child").attr("id","canvas-for-"+f);f=jQuery("#"+f);m=m?m:f;if(!0==c){if(w){for(b=
     0;b< d;b++)l.push(Raphael.animation(g.shapes[b].frames,mD)),q.push(g.shapes[b].init.attr);if(h){var C=clone(q);for(b=0;b< d;b++)C[b].fill=h}}else if(c=v?v:g.duration,!sB&&vB)for(b=0;b< d;b++)g.shapes[b].framesIE?l.push(Raphael.animation(g.shapes[b].framesIE,c)):l.push(Raphael.animation(g.shapes[b].frames,c)),q.push(g.shapes[b].init.attr);else for(b=0;b< d;b++)l.push(Raphael.animation(g.shapes[b].frames,c)),q.push(g.shapes[b].init.attr);if("click"==x)if(u&&!w)if(y){for(b=0;b<
@@ -234,14 +236,14 @@
     liviconsdata[s]:liviconsdata[dN],m=k.hasClass(aC)||u.hasClass(aPC)?dAC:"original"==c.color?"original":c.color?c.color:dC,e=dA?!1==c.animate?c.animate:dA:!0==c.animate?c.animate:dA,d=dL?!1==c.loop?!1:Infinity:!0==c.loop?Infinity:!1,l=c.iteration?0< Math.round(c.iteration)?Math.round(c.iteration):!1:!1,q=c.duration?0< Math.round(c.duration)?Math.round(c.duration):!1:!1,t=dCCOH?dHC:!1;!1===c.hovercolor||
     0===c.hovercolor?t=!1:!0===c.hovercolor||1===c.hovercolor?t=dHC:c.hovercolor&&(t=c.hovercolor);c=dOP?!1==c.onparent?!1:u:!0==c.onparent?u:!1;Raphael(h,v,v).createLivicon(h,s,v,m,t,e,d,l,q,x,y,w,c);k.data("liviconRendered",!0);return this})},removeLivicon:function(b){return this.each(function(){var k=f(this);k.data("liviconRendered",!1);if("total"===b)k.remove();else{var h=k.attr("id");f("#canvas-for-"+h).remove();return k}})},updateLivicon:function(b){return this.each(function(){var k=
     f(this);k.removeLivicon().addLivicon(b);return k})}});f(".livicon").addLivicon()})(jQuery);function fullNames(f){f=JSON.stringify(f);f=f.replace(/\"n\":/g,'"name":').replace(/\"s\":/g,'"size":').replace(/\"c\":/g,'"color":').replace(/\"hc\":/g,'"hovercolor":').replace(/\"a\":/g,'"animate":').replace(/\"i\":/g,'"iteration":').replace(/\"d\":/g,'"duration":').replace(/\"l\":/g,'"loop":').replace(/\"et\":/g,'"eventtype":').replace(/\"op\":/g,'"onparent":');return f=JSON.parse(f)}
-    function clone(f){if(null==f||"object"!=typeof f)return f;var b=new f.constructor,g;for(g in f)b[g]=clone(f[g]);return b};});</pre>
- <!--
-  <script src="js/jquery-1.11.1.min.js"></script>
-  <script src="js/raphael-min.js"></script>
-  <script src="js/livicons-customizer-1.4.js"></script>
-  <script src="js/jquery.inputCtl.min.js"></script>
-  <script src="js/customizer.js"></script>
- -->   
+    function clone(f){if(null==f||"object"!=typeof f)return f;var b=new f.constructor,g;for(g in f)b[g]=clone(f[g]);return b};});
+  </pre>
+
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/jquery-1.11.1.min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/raphael-min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/livicons-customizer-1.4.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/jquery.inputCtl.min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/customizer.js"></script>
   <script type="text/javascript">$('.calipush').load('iconset.html')</script>
   <script>
     var modal = document.getElementById("settings"); // Get the modal
