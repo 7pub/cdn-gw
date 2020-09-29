@@ -1,17 +1,16 @@
-<script src="https://7pub.github.io/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"> </script>
 <body style="background-color:d4d5d6; font-size: 0.8em;">
+
 <div align="right">
 
 [![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)
 </div>
-<div>
 <hr>
 
 <div align="center">
 
 | Alle Browser | Alle Plattformen | Web Kit Google |
 -|-|-
-|<br><img src="browsers/ie.png"> <img src="browsers/safari.png"> <img src="browsers/chrome.png"><hr><img src="browsers/firefox.png"> <img src="browsers/edge.png"> |<br><img src="platforms/ios_13.png"/> <img src="platforms/android.png"/><hr><img src="platforms/windows.png"/> <img src="platforms/mac_os_x.png"/> <img src="platforms/google.png"/> | <img src="technologies/google-web-starter-kit.png"><hr><br> | 
+|<br><img src="browsers/ie.png"> <img src="browsers/safari.png"> <img src="browsers/chrome.png"><hr><img src="browsers/firefox.png"> <img src="browsers/edge.png"> |<br><img src="platforms/ios_13.png"/> <img src="platforms/android.png"/><hr><img src="platforms/windows.png"/> <img src="platforms/mac_os_x.png"/> <img src="platforms/google.png"/> | <img src="technologies/google-web-starter-kit.png"><hr><br> |
 
 </div>
 
