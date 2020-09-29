@@ -21,7 +21,7 @@ wie das iPhone und Android sowie für Tablets wie das iPad.
 <hr>
 
 ## Wer nutzt diese hier?
-Alle Favicons, Icons oder Anwendungs-Symbole dieser Seite sind eine öffentlich zugängliche Quelle. Es wird eine Entwicklungsumgebung für Cali simuliert. Darüber hinaus werden sie häufig von nicht-Cali Projekte genutzt. Dieses Github Repository wird von Cali selbst verwaltet. Der Zweck ist eine für Projekte von Cali geforderten Art der Umsetzung. Apps von Cali sind Non-Profit und ohne erkennbaren nutzen.
+Alle Favicons, Icons oder Anwendungs-Symbole dieser Seite sind eine öffentlich zugängliche Quelle. Es wird eine Entwicklungsumgebung für Cali simuliert.Dieses Github Repository wird von Cali selbst verwaltet. Der Zweck ist eine für 'Projekte-von-Cali' geforderten Art der Umsetzung. Apps von Cali sind Non-Profit und ohne erkennbaren nutzen.
 <br><br><br>
 <hr>
 
