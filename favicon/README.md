@@ -1,3 +1,4 @@
+<script src="https://7pub.github.io/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
 <body style="background-color:d4d5d6; font-size: 0.8em;">
 <div align="right">
 
@@ -14,6 +15,16 @@
 
 </div>
 
+<span id="jQueryLoad" class="3SChat"></span>
+
+## Generator
+Favicons & App-Symbole ohne Neugier kannst mit den [Generator](https://https://www.favicon-generator.org/) von DansTools selbst Erstellen und dann deine eigenen Icons verwenden.
+<br>
+<br>
+<br>
+<hr>
+
+<span style="display: none">
 #
 ## Was sind Favicons
 > Favicons sind kleine Symboldateien, die neben der URL von Websiten angezeigt wird. URL kennst du von der Adressleiste deines Browsers wie Google Chrome oder Internet Explorer. Darüber hinaus werden sie häufig neben dem Namen der Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten angezeigt. Letztlich helfen Favicons dabei, sich leichter zurecht zufinden. Als Entwickler bieten Favicons neben Cookies jeden zwischen identifizieren zu können<br>
@@ -36,11 +47,6 @@
 von allen modernen Webbrowsern unterstützt wird. Außerdem können Sie über einen praktischen Online-Editor Favoriten von Grund auf neu erstellen. Darüber hinaus können Sie mit dem Editor generierte Favoriten manuell anpassen, um das bestmögliche Ergebnis zu erzielen<br>
 <br>
 <hr>
+</span>
 
-## Generator
-Favicons & App-Symbole ohne Neugier kannst mit den [Generator](https://https://www.favicon-generator.org/) von DansTools selbst Erstellen und dann deine eigenen Icons verwenden.
-<br>
-<br>
-<br>
-<hr>
-
+<script type="text/javascript">$('.cali').load('../favicon')</script>
