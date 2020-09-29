@@ -1,39 +1,36 @@
-<head>
-  <title></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-  <meta charset="utf-8">
-  <meta name=author content=DeeThemes>
-  <meta itemprop=name content=LivIcons>
-  <meta name=description itemprop=description
-    content="This is the customizer for LivIcons - the truly animated vector icons.">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/customizer.css" rel="stylesheet">
-  <link href="css/jquery.minicolors.css" rel="stylesheet">
-  <style>
-  body {font-family: Arial, Helvetica, sans-serif; font-size: 0.8em;}
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;top: 0;width: 100%; /* Full width */
-    height: 100%;overflow: auto;/* Full height Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  .modal-content {background-color: #fefefe;margin: auto;padding: 20px;border: 1px solid #888;  width: 80%;}
-  .close {color: #aaaaaa;float: right;font-size: 28px;font-weight: bold;}
-  .close:hover,.close:focus {color: #000;text-decoration: none;cursor: pointer;}
-  </style>
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta charset="utf-8">
+<meta name=author content=DeeThemes>
+<meta itemprop=name content=LivIcons>
+<meta name=description itemprop=description
+  content="This is the customizer for LivIcons - the truly animated vector icons.">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/customizer.css" rel="stylesheet">
+<link href="css/jquery.minicolors.css" rel="stylesheet">
+<style>
+body {font-family: Arial, Helvetica, sans-serif; font-size: 0.8em;}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;top: 0;width: 100%; /* Full width */
+  height: 100%;overflow: auto;/* Full height Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {background-color: #fefefe;margin: auto;padding: 20px;border: 1px solid #888;  width: 80%;}
+.close {color: #aaaaaa;float: right;font-size: 28px;font-weight: bold;}
+.close:hover,.close:focus {color: #000;text-decoration: none;cursor: pointer;}
+</style>
 <body style="background-color:d4d5d6; font-size: 0.8em;">
 <div align="right">
 
-[![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)</div>
+[![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)
+</div>
 
 # Iconset
-
 <p align="center">
  <a href="favicon-16x16.png" target="_blank"><img src="favicon-16x16.png"/></a>
  <a href="favicon-32x32.png" target="_blank"><img src="favicon-32x32.png"/></a>
