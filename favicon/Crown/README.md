@@ -1,5 +1,18 @@
-<style> 
-
+<style>
+body {font-family: Arial, Helvetica, sans-serif; font-size: 0.8em;}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;top: 0;width: 100%; /* Full width */
+  height: 100%;overflow: auto;/* Full height Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {background-color: #fefefe;margin: auto;padding: 20px;border: 1px solid #888;width: 80%;}
+.close {color: #aaaaaa;float: right;font-size: 28px;font-weight: bold;}
+.close:hover,.close:focus {color: #000;text-decoration: none;cursor: pointer;}
 </style>
 
 <div align="right">
@@ -102,3 +115,19 @@
 | Microsoft Icon | 144px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-144x144.png |
 | Microsoft Icon | 150px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-150x150.png |
 | Microsoft Icon | 310px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-310x310.png |
+
+<br>
+    <p>Some text in the Modal..</p>
+  </div>
+</div>
+<script>
+  var modal = document.getElementById("myModal"); // Get the modal
+  var btn = document.getElementById("myBtn");// Get the button that opens the modal
+  var span = document.getElementsByClassName("close")[0];// Get the <span> element that closes the modal
+      btn.onclick = function() {// When the user clicks the button, open the modal 
+        modal.style.display = "block";}
+      span.onclick = function() {// When the user clicks on <span> (x), close the modal
+        modal.style.display = "none";}
+      window.onclick = function(event) {// When the user clicks anywhere outside of the modal, close it
+        if (event.target == modal) {modal.style.display = "none";}}
+</script>
