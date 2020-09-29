@@ -5,8 +5,13 @@
   <link href="https://7pub.github.io/cdn-gw/favicon/css/livicons-help.css" rel="stylesheet">
   <link href="https://7pub.github.io/cdn-gw/favicon/css/prettify.css" rel="stylesheet">
   <link href="https://7pub.github.io/cdn-gw/favicon/css/customizer.css" rel="stylesheet">
+
   <script src="https://7pub.github.io/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
-  <script src="https://7pub.github.io/cdn-gw/favicon/js/jquery.inputCtl.min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/jquery-1.11.1.min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/jquery-1.9.1.min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/prettify.min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/bootstrap.min.js"></script>
+
   <!--[if IE]><link rel="shortcut icon" href="https://7pub.github.io/cdn-gw/favicon/Crown/favicon.ico"><![endif]-->
   <link rel="icon" type="image/png" href="https://7pub.github.io/cdn-gw/favicon/Crown/favicon.ico">
 
@@ -22,18 +27,15 @@
     Full notation:</span>
   <span style="display: none" class="livicon" data-n="livicon" data-s="32" data-c="#Fa45b7" data-hc="#ff00ff"
     data-a="true" data-i="3" data-d="600" data-l="false" data-et="hover" data-op="false"> Short notation:</span>
-  <div class="container">
-    <div style="position: fixed;">
-    <!--<div class="pull-right">
+  <div style="position:sticky;" class="container span12">
+    <div style="position:fixed"class="pull-right">
         <textarea id="resultcode" class="span12" rows="2"></textarea>
-      </div>-->
-      <div class="span12 well" id="resultinfo">
-      </div>
-      <div class="span12">
-        <button id="setBtn" class="btn btn-primary span3">Einstellungen</button>
-        <p><input type="button" class="btn btn-info span3" value="check all"></p>
-        <a href="#resultinfo" id="result" class="btn btn-large btn-secondary" value="check all">Get the code!</a>
-      </div>
+      <div class="well" id="resultinfo"> </div>
+       
+      <a href="#resultinfo" id="result" class="btn btn-large btn-secondary" value="check all">Get the code!</a><br>
+      <button id="setBtn" class="btn btn-primary span3">Einstellungen</button>
+      <p><input type="button" class="btn btn-info span3" value="check all"></p>
+
       <div class="span12 alert alert-error" id="errinfo">
         <i class="livicon" data-n="warning-alt" data-s="24" data-c="#9d261d" data-op="1"></i>
         <strong>Please select at least one icon!</strong>
@@ -45,25 +47,28 @@
     </div>
   </div>
 
-  <span id="calipush" class="calipush"></span>
-  
+  <div class="container span12">
+    <span id="calipush" class="calipush"></span>
+  </div>
   <!--resultinfo-->
-  <div id="resultinfo" class="modal"><!--The Modal-->
-    <div class="modal-content"><!--Modal content-->
+  <div id="resultinfo" class="modal">
+    <!--The Modal-->
+    <div class="modal-content">
+      <!--Modal content-->
       <span class="close">&times;</span>
       <p class="lead">
         <i class="livicon" data-n="check" data-s="32" data-c="#333" data-a="0"></i>Fertig!</p>
-        <ul> 
-          <li>1. Erstelle mit der rechten Maustaste eine leeres Dokument auf deinem Desktop</li>
-          <li>2. Konvertiere diese Textdatei in eine Javascriptdatei. Dazu musst du einfach<br>
-                  - die Dateiendung von (.txt) nach .JS  ändern</li>
-          <li>3. Jetzt kopiere den Code in diese Javascriptdatei!<br>
-                  Tipp: Markieren = STRG+A / Kopieren = STRG+C / Einfügen = SRTG+V</li>
-          <li>4. Nun lade die Javascriptdatei auf deinen Server</li>
-          <li>5. Nicht auf den Verweis im Kopfbereich deiner Startdatei vergessen.</li>
-        </ul>
-        <p>Thank you and good luck!</p>
-        <textarea id="resultcode" rows="5"></textarea>
+      <ul>
+        <li>1. Erstelle mit der rechten Maustaste eine leeres Dokument auf deinem Desktop</li>
+        <li>2. Konvertiere diese Textdatei in eine Javascriptdatei. Dazu musst du einfach<br>
+          - die Dateiendung von (.txt) nach .JS ändern</li>
+        <li>3. Jetzt kopiere den Code in diese Javascriptdatei!<br>
+          Tipp: Markieren = STRG+A / Kopieren = STRG+C / Einfügen = SRTG+V</li>
+        <li>4. Nun lade die Javascriptdatei auf deinen Server</li>
+        <li>5. Nicht auf den Verweis im Kopfbereich deiner Startdatei vergessen.</li>
+      </ul>
+      <p>Thank you and good luck!</p>
+      <textarea id="resultcode" rows="5"></textarea>
     </div>
   </div>
 
@@ -237,18 +242,18 @@
     function clone(f){if(null==f||"object"!=typeof f)return f;var b=new f.constructor,g;for(g in f)b[g]=clone(f[g]);return b};});
   </pre>
 
-  <!--script src="https://7pub.github.io/cdn-gw/favicon/js/jquery-1.11.1.min.js"></script-->
-  <!--script src="https://7pub.github.io/cdn-gw/favicon/js/jquery-1.9.1.min.js"></script-->
-  <script src="https://7pub.github.io/cdn-gw/favicon/js/raphael-min.js"></script>
-  <script src="https://7pub.github.io/cdn-gw/favicon/js/livicons-customizer-1.4.js"></script>
-  <script src="https://7pub.github.io/cdn-gw/favicon/js/customizer.js"></script>
-  <script src="https://7pub.github.io/cdn-gw/favicon/js/prettify.min.js"></script>
-  <script src="https://7pub.github.io/cdn-gw/favicon/js/bootstrap.min.js"></script>
+
   <script src="https://7pub.github.io/cdn-gw/favicon/js/raphael-min.js"></script>
   <script src="https://7pub.github.io/cdn-gw/favicon/js/livicons-help.min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/jquery.inputCtl.min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/livicons-customizer-1.4.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/customizer.js"></script>
   <script src="https://7pub.github.io/cdn-gw/favicon/js/jquery.minicolors.min.js"></script>
 
-  <script type="text/javascript">$('.calipush').load('iconset.html')</script>
+
+  <script type="text/javascript">
+    $('.calipush').load('iconset.html')
+  </script>
   <script>
     var modal = document.getElementById("settings"); // Get the modal
     var btn = document.getElementById("setBtn"); // Get the button that opens the modal
@@ -266,12 +271,20 @@
     }
   </script>
   <script>
-    var shiftWindow = function() { scrollBy(0, -50) };
-        window.addEventListener("hashchange", shiftWindow);
-      function load() { if (window.location.hash) shiftWindow(); }
-    $.ajaxPrefilter(function(
-      options,originalOptions,jqXHR){
-      options.async = true;});
-    $.ajax({async: true,}); // this will solve the problem
+    var shiftWindow = function () {
+      scrollBy(0, -50)
+    };
+    window.addEventListener("hashchange", shiftWindow);
+
+    function load() {
+      if (window.location.hash) shiftWindow();
+    }
+    $.ajaxPrefilter(function (
+      options, originalOptions, jqXHR) {
+      options.async = true;
+    });
+    $.ajax({
+      async: true,
+    }); // this will solve the problem
   </script>
 </body>
