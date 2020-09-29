@@ -1,19 +1,18 @@
 <head>
-  <title>:)</title>
-
-  <link href="https://7pub.github.io/cdn-gw/favicon/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://7pub.github.io/cdn-gw/favicon/css/customizer.css" rel="stylesheet">
+  <title>Icons by Caliapps</title>
+  
   <link href="https://7pub.github.io/cdn-gw/favicon/css/jquery.minicolors.css" rel="stylesheet">
-  <script src="https://7pub.github.io/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
-  <script src="https://7pub.github.io/cdn-gw/favicon/js/jquery.minicolors.min.js"></script>
-  <script>
-      $.ajaxPrefilter(function(options,originalOptions,jqXHR){
-          options.async = true;});
-          $.ajax({
-            async: true,   // this will solve the problem
-          });
-  </script>
+  <link href="https://7pub.github.io/cdn-gw/favicon/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://7pub.github.io/cdn-gw/favicon/css/livicons-help.css" rel="stylesheet">
+  <link href="https://7pub.github.io/cdn-gw/favicon/css/prettify.css" rel="stylesheet">
+  <link href="https://7pub.github.io/cdn-gw/favicon/css/customizer.css" rel="stylesheet">
 
+  <script src="https://7pub.github.io/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/jquery.inputCtl.min.js"></script>
+
+  <!--[if lt IE 8]>
+    <script src="js/json2.min.js"></script>
+  <![endif]-->
 </head>
 
 <body>
@@ -23,7 +22,6 @@
     Full notation:</span>
   <span style="display: none" class="livicon" data-n="livicon" data-s="32" data-c="#Fa45b7" data-hc="#ff00ff"
     data-a="true" data-i="3" data-d="600" data-l="false" data-et="hover" data-op="false"> Short notation:</span>
-
   <div class="container">
     <div style="position: fixed;">
     <!--<div class="pull-right">
@@ -239,11 +237,17 @@
     function clone(f){if(null==f||"object"!=typeof f)return f;var b=new f.constructor,g;for(g in f)b[g]=clone(f[g]);return b};});
   </pre>
 
-  <script src="https://7pub.github.io/cdn-gw/favicon/js/jquery-1.11.1.min.js"></script>
+  <!--script src="https://7pub.github.io/cdn-gw/favicon/js/jquery-1.11.1.min.js"></script-->
+  <!--script src="https://7pub.github.io/cdn-gw/favicon/js/jquery-1.9.1.min.js"></script-->
   <script src="https://7pub.github.io/cdn-gw/favicon/js/raphael-min.js"></script>
   <script src="https://7pub.github.io/cdn-gw/favicon/js/livicons-customizer-1.4.js"></script>
-  <script src="https://7pub.github.io/cdn-gw/favicon/js/jquery.inputCtl.min.js"></script>
   <script src="https://7pub.github.io/cdn-gw/favicon/js/customizer.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/prettify.min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/bootstrap.min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/raphael-min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/livicons-help.min.js"></script>
+  <script src="https://7pub.github.io/cdn-gw/favicon/js/jquery.minicolors.min.js"></script>
+
   <script type="text/javascript">$('.calipush').load('iconset.html')</script>
   <script>
     var modal = document.getElementById("settings"); // Get the modal
@@ -260,5 +264,14 @@
         modal.style.display = "none";
       }
     }
+  </script>
+  <script>
+    var shiftWindow = function() { scrollBy(0, -50) };
+        window.addEventListener("hashchange", shiftWindow);
+      function load() { if (window.location.hash) shiftWindow(); }
+    $.ajaxPrefilter(function(
+      options,originalOptions,jqXHR){
+      options.async = true;});
+    $.ajax({async: true,}); // this will solve the problem
   </script>
 </body>
