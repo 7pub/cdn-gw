@@ -20,3 +20,4 @@ _source/Chatrooms/node_modules/.bin/opener
 .source/Chatrooms/node_modules/.bin/mkdirp
 .source/Chatrooms/node_modules/.bin/opener
 public/snapdrop/
+/favicon/node_modules/.bin
