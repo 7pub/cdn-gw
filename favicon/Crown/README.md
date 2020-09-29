@@ -27,6 +27,7 @@
   .close:hover,.close:focus {color: #000;text-decoration: none;cursor: pointer;}
   </style>
 </head>
+<body style="background-color:d4d5d6; font-size: 0.8em;">
 <div align="right">
 
 [![CALIRUN](https://img.shields.io/badge/Calirun-Projekte-blue)](https://cali.run)</div>
@@ -145,3 +146,4 @@
       window.onclick = function(event) {// When the user clicks anywhere outside of the modal, close it
         if (event.target == modal) {modal.style.display = "none";}}
 </script>
+</body>
