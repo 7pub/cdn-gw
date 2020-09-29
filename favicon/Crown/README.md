@@ -1,44 +1,19 @@
-<script src="https://7pub.github.io/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"> </script>
-
 <style>
-    body {font-family: Arial, Helvetica, sans-serif;} /* The Modal (background) */
-    .modal {
-      display: none; /* Hidden by default */
-      position: fixed; /* Stay in place */
-      z-index: 1; /* Sit on top */
-      padding-top: 100px; /* Location of the box */
-      left: 0;
-      top: 0;
-      width: 100%; /* Full width */
-      height: 100%; /* Full height */
-      overflow: auto; /* Enable scroll if needed */
-      background-color: rgb(0,0,0); /* Fallback color */
-      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    }
-    /* Modal Content */
-    .modal-content {
-      background-color: #fefefe;
-      margin: auto;
-      padding: 20px;
-      border: 1px solid #888;
-      width: 80%;
-    }
-    /* The Close Button */
-    .close {
-      color: #aaaaaa;
-      float: right;
-      font-size: 28px;
-      font-weight: bold;
-    }
-    .close:hover,
-    .close:focus {
-      color: #000;
-      text-decoration: none;
-      cursor: pointer;
-    }
+body {font-family: Arial, Helvetica, sans-serif; font-size: 0.8em;}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;top: 0;width: 100%; /* Full width */
+  height: 100%;overflow: auto;/* Full height Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {background-color: #fefefe;margin: auto;padding: 20px;border: 1px solid #888;width: 80%;}
+.close {color: #aaaaaa;float: right;font-size: 28px;font-weight: bold;}
+.close:hover,.close:focus {color: #000;text-decoration: none;cursor: pointer;}
 </style>
-
-<body style="background-color:d4d5d6; font-size: 0.8em;">
 
 <div align="right">
 
@@ -57,6 +32,7 @@
  <a href="favicon-32x32.png" target="_blank"><img src="favicon-32x32.png"/></a>
  <a href="favicon-16x16.png" target="_blank"><img src="favicon-16x16.png"/></a>
 </p>
+
 <hr>
 
 ## Kurzanleitung
@@ -69,7 +45,6 @@
 <hr>
 
 ## Downloads
-
 
 <a href="https://github.com/7pub/cdn-gw/raw/master/favicon/Crown/3f446392a21bf3d2a08024894cccdb3e.ico.zip">
 <p align="center" style="font-size:2.0em">ZIP Package</p>
@@ -85,7 +60,6 @@
 #
 ## HEAD Tag Element
 ```code
-
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -103,13 +77,16 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-
 # PROVIDED WITH LOVE BY CALI
-
 ```
 
 #
 ## Inhaltsverzeichnis
+
+<button id="myBtn">Open Modal</button><!--Trigger/Open The Modal-->
+<div id="myModal" class="modal"><!--The Modal-->
+  <div class="modal-content"><!--Modal content-->
+    <span class="close">&times;</span>
 
 | ARTIKEL | GRÖSSE | RAW Address |
 |-|-|-|
@@ -138,58 +115,19 @@
 | Microsoft Icon | 144px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-144x144.png |
 | Microsoft Icon | 150px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-150x150.png |
 | Microsoft Icon | 310px | https://raw.githubusercontent.com/7pub/cdn-gw/master/favicon/Crown/ms-icon-310x310.png |
+
 <br>
-
-#
-> #
-> #
-> #
-> #
-<hr>
-
-# FQDN - Full Quaified Domain Name
-
-```code
-<link rel="apple-touch-icon" sizes="57x57" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-76x76.png">
-
-<link rel="apple-touch-icon" sizes="114x114" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="7pub.github.io/cdn-gw/favicon/Crown/apple-icon-180x180.png">
-
-<link rel="icon" type="image/png" sizes="192x192"  href="7pub.github.io/cdn-gw/favicon/Crown/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="7pub.github.io/cdn-gw/favicon/Crown/favicon-16x16.png">
-<link rel="manifest" href="7pub.github.io/cdn-gw/favicon/Crown/manifest.json">
-
-
-#PROVIDED WITH LOVE BY CALI
-
-```
-
-
-|  Vorschau                     | Pixel   | ------- | ------- | ------- | ------- | 
-|  ----------------------------:| ------- | ------- | ------- | ------- | ------- | 
-| ![](favicon-16x16.png)        | <strong>16x16</strong>   | ------- | ------- | ------- | ------- | 
-| ![](favicon-32x32.png)        | <strong>32x32</strong>   | ------- | ------- | ------- | ------- | 
-| ![](apple-icon-57x57.png)     | <strong>57x57</strong>   | ------- | ------- | ------- | ------- | 
-| ![](apple-icon-60x60.png)     | <strong>60x60</strong>   | ------- | ------- | ------- | ------- | 
-| ![](android-icon-72x72.png)   | <strong>72x72</strong>   | ------- | ------- | ------- | ------- | 
-| ![](apple-icon-76x76.png)     | <strong>76x76</strong>   | ------- | ------- | ------- | ------- | 
-| ![](android-icon-96x96.png)   | <strong>96x96</strong>   | ------- | ------- | ------- | ------- | 
-| ![](apple-icon-114x114.png)   | <strong>114x114</strong> | ------- | ------- | ------- | ------- | 
-| ![](apple-icon-120x120.png)   | <strong>120x120</strong> | ------- | ------- | ------- | ------- | 
-| ![](android-icon-144x144.png) | <strong>144x144</strong> | ------- | ------- | ------- | ------- | 
-| ![](apple-icon-152x152.png)   | <strong>152x152</strong> | ------- | ------- | ------- | ------- | 
-| ![](apple-icon-180x180.png)   | <strong>180x180</strong> | ------- | ------- | ------- | ------- | 
-| ![](android-icon-192x192.png) | <strong>192x192</strong> | ------- | ------- | ------- | ------- | 
-
-
-|16|32|57|60|72|76|96|114|120|144|152|180|192|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+    <p>Some text in the Modal..</p>
+  </div>
+</div>
+<script>
+  var modal = document.getElementById("myModal"); // Get the modal
+  var btn = document.getElementById("myBtn");// Get the button that opens the modal
+  var span = document.getElementsByClassName("close")[0];// Get the <span> element that closes the modal
+      btn.onclick = function() {// When the user clicks the button, open the modal 
+        modal.style.display = "block";}
+      span.onclick = function() {// When the user clicks on <span> (x), close the modal
+        modal.style.display = "none";}
+      window.onclick = function(event) {// When the user clicks anywhere outside of the modal, close it
+        if (event.target == modal) {modal.style.display = "none";}}
+</script>
