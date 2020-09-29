@@ -1,5 +1,7 @@
-#
+<body style="background-color:d4d5d6; font-size: 0.8em;">
 
+#
+<p align="center">
 <img src="../favicon/Crown/favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" />
 <img src="../favicon/Crown/favicon-32x32.png" alt="favicon-32x32" title="favicon-32x32" />
 <img src="../favicon/Crown/android-icon-48x48.png" alt="android-icon-48x48" title="android-icon-48x48" />
@@ -9,6 +11,7 @@
 <img src="../favicon/Crown/android-icon-48x48.png" alt="android-icon-48x48" title="android-icon-48x48" />
 <img src="../favicon/Crown/favicon-32x32.png" alt="favicon-32x32" title="favicon-32x32" />
 <img src="../favicon/Crown/favicon-16x16.png" alt="favicon-16x16" title="favicon-16x16" />
+</p>
 
 #
 ## Was sind Favicons?
