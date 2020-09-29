@@ -7,7 +7,7 @@
   content="This is the customizer for LivIcons - the truly animated vector icons.">
 <link href="../css/bootstrap.min.css" rel="stylesheet">
 <link href="../css/customizer.css" rel="stylesheet">
-<link href="../css/jquery.minicolors.css" rel="stylesheet">
+<link href="../..//css/jquery.minicolors.css" rel="stylesheet">
 <style>
 body {font-family: Arial, Helvetica, sans-serif; font-size: 0.8em;}
 .modal {
@@ -24,3 +24,88 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 0.8em;}
 .close {color: #aaaaaa;float: right;font-size: 28px;font-weight: bold;}
 .close:hover,.close:focus {color: #000;text-decoration: none;cursor: pointer;}
 </style>
+
+<body style="background-color:d4d5d6; font-size: 0.8em;">
+  <div align="right">
+    <img src="https://img.shields.io/badge/Calirun-Projekte-blue" />
+  </div>
+  
+<h1>Iconset</h1>
+  <p align="center">
+   <a href="favicon-16x16.png" target="_blank"><img src="favicon-16x16.png"/></a>
+   <a href="favicon-32x32.png" target="_blank"><img src="favicon-32x32.png"/></a>
+   <a href="android-icon-48x48.png" target="_blank"><img src="android-icon-48x48.png"/></a>
+   <a href="ms-icon-70x70.png" target="_blank"><img src="ms-icon-70x70.png"/></a>
+   <a href="favicon-96x96.png" target="_blank"><img src="favicon-96x96.png"/></a>
+   <a href="ms-icon-70x70.png" target="_blank"><img src="ms-icon-70x70.png"/></a>
+   <a href="android-icon-48x48.png" target="_blank"><img src="android-icon-48x48.png"/></a>
+   <a href="favicon-32x32.png" target="_blank"><img src="favicon-32x32.png"/></a>
+   <a href="favicon-16x16.png" target="_blank"><img src="favicon-16x16.png"/></a>
+  </p>
+  
+<hr>
+  
+<h2>Kurzanleitung</h2>
+<ul>  
+   <li>1) Folgenden Code kopieren und im Kopfbereich <strong>```<head>```</strong> deines HTML-Dokuments einfügen.<br></li>
+   <li>2) Speichere den Download im Stammverzeichniss deines Projekts.<br></li>
+   <li>3) Den folgenden Code im Kopfbereich <head> deines HTML-Dokuments einfügen</li>
+   <li>4) fine</li>
+  </ul>
+<hr>  
+<h2> Downloads</h2>
+
+  <a href="https://github.com/7pub/cdn-gw/raw/master/favicon/Crown/3f446392a21bf3d2a08024894cccdb3e.ico.zip">
+  <p align="center" style="font-size:2.0em">ZIP Package</p>
+  </a>
+  
+<hr>
+<h2>Definition und Verwendung</h2>
+  <ul>
+  <li>+ Das ``<link>`` -Element Definiert die Beziehung zwischen der eigenen internen und einer externen Ressource.</li>
+  <li>+ Das ``<link>`` -Tag wird am häufigsten zum Verknüpfen mit externen Stylesheets verwendet.</li>
+  <li>+ Das ``<link>`` -ist ein leeres Element und enthält nur Attribute.</li>
+</ul>
+<hr>
+<h2>HEAD Tag Element</h2>
+  ```code
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  # PROVIDED WITH LOVE BY CALI
+  ```
+
+  <button id="myBtn">Open Modal</button><!--Trigger/Open The Modal-->
+  <div id="myModal" class="modal"><!--The Modal-->
+    <div class="modal-content"><!--Modal content-->
+      <span class="close">&times;</span>
+      <p>Some text in the Modal..</p>
+    </div>
+  </div>
+<hr>
+
+<script>
+  var modal = document.getElementById("myModal"); // Get the modal
+  var btn = document.getElementById("myBtn");// Get the button that opens the modal
+  var span = document.getElementsByClassName("close")[0];// Get the <span> element that closes the modal
+      btn.onclick = function() {// When the user clicks the button, open the modal 
+        modal.style.display = "block";}
+      span.onclick = function() {// When the user clicks on <span> (x), close the modal
+        modal.style.display = "none";}
+      window.onclick = function(event) {// When the user clicks anywhere outside of the modal, close it
+        if (event.target == modal) {modal.style.display = "none";}}
+</script>
