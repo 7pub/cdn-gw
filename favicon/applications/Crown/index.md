@@ -4,7 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
-
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -19,7 +18,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content {
   background-color: #fefefe;
@@ -28,7 +26,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close {
   color: #aaaaaa;
@@ -36,7 +33,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
   font-size: 28px;
   font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
   color: #000;
@@ -45,37 +41,25 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 </style>
 </head>
-
 <body>
-
 <h2>Modal Example</h2>
-
-<!-- Trigger/Open The Modal -->
-<button id="myBtn">Open Modal</button>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
+<button id="myBtn">Open Modal</button><!--Trigger/Open The Modal-->
+<div id="myModal" class="modal"><!--The Modal-->
+  <div class="modal-content"><!--Modal content-->
     <span class="close">&times;</span>
     <p>Some text in the Modal..</p>
   </div>
-
 </div>
-
 <script>
-
-var modal = document.getElementById("myModal"); // Get the modal
-var btn = document.getElementById("myBtn");// Get the button that opens the modal
-var span = document.getElementsByClassName("close")[0];// Get the <span> element that closes the modal
-    btn.onclick = function() {// When the user clicks the button, open the modal 
-      modal.style.display = "block";}
-    span.onclick = function() {// When the user clicks on <span> (x), close the modal
-      modal.style.display = "none";}
-    window.onclick = function(event) {// When the user clicks anywhere outside of the modal, close it
-      if (event.target == modal) {modal.style.display = "none";}}
+  var modal = document.getElementById("myModal"); // Get the modal
+  var btn = document.getElementById("myBtn");// Get the button that opens the modal
+  var span = document.getElementsByClassName("close")[0];// Get the <span> element that closes the modal
+      btn.onclick = function() {// When the user clicks the button, open the modal 
+        modal.style.display = "block";}
+      span.onclick = function() {// When the user clicks on <span> (x), close the modal
+        modal.style.display = "none";}
+      window.onclick = function(event) {// When the user clicks anywhere outside of the modal, close it
+        if (event.target == modal) {modal.style.display = "none";}}
 </script>
-
 </body>
 </html>
