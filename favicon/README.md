@@ -15,17 +15,11 @@
 
 </div>
 
-<span id="jQueryLoad" class="3SChat"></span>
-
-## Generator
-Favicons & App-Symbole ohne Neugier kannst mit den [Generator](https://https://www.favicon-generator.org/) von DansTools selbst Erstellen und dann deine eigenen Icons verwenden.
-<br>
-<br>
-<br>
-<hr>
-
-<span style="display: none">
 #
+## Generator
+> Favicons & App-Symbole ohne Neugier kannst mit den [Generator](https://https://www.favicon-generator.org/) von DansTools selbst Erstellen und dann deine eigenen Icons verwenden.<br>
+<br>
+
 ## Was sind Favicons
 > Favicons sind kleine Symboldateien, die neben der URL von Websiten angezeigt wird. URL kennst du von der Adressleiste deines Browsers wie Google Chrome oder Internet Explorer. Darüber hinaus werden sie häufig neben dem Namen der Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten angezeigt. Letztlich helfen Favicons dabei, sich leichter zurecht zufinden. Als Entwickler bieten Favicons neben Cookies jeden zwischen identifizieren zu können<br>
 <br>
@@ -44,9 +38,4 @@ Favicons & App-Symbole ohne Neugier kannst mit den [Generator](https://https://w
 
 ## Was macht dieses Tool
 > Obwohl viele moderne Webbrowser als GIFs, PNGs oder andere gängige Dateiformate gespeicherte Favoriten unterstützen, müssen für alle Versionen von Internet Explorer weiterhin Favoriten als ICO-Dateien gespeichert werden (ein Microsoft-Symbolformat). Dieses Tool bietet eine einfache Möglichkeit, GIF, PNG oder JPEG in ICO zu konvertieren, was
-von allen modernen Webbrowsern unterstützt wird. Außerdem können Sie über einen praktischen Online-Editor Favoriten von Grund auf neu erstellen. Darüber hinaus können Sie mit dem Editor generierte Favoriten manuell anpassen, um das bestmögliche Ergebnis zu erzielen<br>
-<br>
-<hr>
-</span>
-
-<script type="text/javascript">$('.cali').load('../favicon')</script>
+von allen modernen Webbrowsern unterstützt wird. Außerdem können Sie über einen praktischen Online-Editor Favoriten von Grund auf neu erstellen. Darüber hinaus können Sie mit dem Editor generierte Favoriten manuell anpassen, um das bestmögliche Ergebnis zu erzielen
