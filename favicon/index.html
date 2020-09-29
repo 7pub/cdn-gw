@@ -47,9 +47,7 @@
         </div>
       </div>
   </div>
-
   <span id="calipush" class="calipush"></span>
-
   <!--resultinfo-->
   <div id="resultinfo" class="modal"><!--The Modal-->
     <div class="modal-content"><!--Modal content-->
@@ -69,7 +67,6 @@
         <textarea id="resultcode" rows="5"></textarea>
     </div>
   </div>
-
   <!--Setting Modal-->
   <div id="settings" class="modal">
     <div class="modal-content">
@@ -222,7 +219,6 @@
       </div>
     </div>
   </div>
-
   <!--end.container-->
   <pre
     id="restcode">lDI=lDI.replace(/\"d\":/g,'"duration":').replace(/\"i\":/g,'"init":').replace(/\"f\":/g,'"frames":').replace(/\"fIE\":/g,'"framesIE":').replace(/\"o\":/g,'"opacity":').replace(/\"t\":/g,'"transform":').replace(/\"it\":/g,'"iteration":').replace(/\"sh\":/g,'"shapes":').replace(/\"a\":/g,'"attr":').replace(/\"p\":/g,'"path":').replace(/\"fl\":/g,'"fill":').replace(/\"e\":/g,'"easing":').replace(/\"s\":/g,'"stroke-width":0,"stroke":'),liviconsdata=JSON.parse(lDI),sB=Raphael.svg,vB=Raphael.vml;
@@ -239,7 +235,6 @@
     0===c.hovercolor?t=!1:!0===c.hovercolor||1===c.hovercolor?t=dHC:c.hovercolor&&(t=c.hovercolor);c=dOP?!1==c.onparent?!1:u:!0==c.onparent?u:!1;Raphael(h,v,v).createLivicon(h,s,v,m,t,e,d,l,q,x,y,w,c);k.data("liviconRendered",!0);return this})},removeLivicon:function(b){return this.each(function(){var k=f(this);k.data("liviconRendered",!1);if("total"===b)k.remove();else{var h=k.attr("id");f("#canvas-for-"+h).remove();return k}})},updateLivicon:function(b){return this.each(function(){var k=
     f(this);k.removeLivicon().addLivicon(b);return k})}});f(".livicon").addLivicon()})(jQuery);function fullNames(f){f=JSON.stringify(f);f=f.replace(/\"n\":/g,'"name":').replace(/\"s\":/g,'"size":').replace(/\"c\":/g,'"color":').replace(/\"hc\":/g,'"hovercolor":').replace(/\"a\":/g,'"animate":').replace(/\"i\":/g,'"iteration":').replace(/\"d\":/g,'"duration":').replace(/\"l\":/g,'"loop":').replace(/\"et\":/g,'"eventtype":').replace(/\"op\":/g,'"onparent":');return f=JSON.parse(f)}
     function clone(f){if(null==f||"object"!=typeof f)return f;var b=new f.constructor,g;for(g in f)b[g]=clone(f[g]);return b};});</pre>
-
  <!--
   <script src="js/jquery-1.11.1.min.js"></script>
   <script src="js/raphael-min.js"></script>
@@ -248,7 +243,6 @@
   <script src="js/customizer.js"></script>
  -->   
   <script type="text/javascript">$('.calipush').load('iconset.html')</script>
-  
   <script>
     var modal = document.getElementById("settings"); // Get the modal
     var btn = document.getElementById("setBtn"); // Get the button that opens the modal
