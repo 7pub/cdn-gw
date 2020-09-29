@@ -1,4 +1,4 @@
-<script src="https://7pub.github.io/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
+<script src="https://7pub.github.io/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"> </script>
 <body style="background-color:d4d5d6; font-size: 0.8em;">
 <div align="right">
 
