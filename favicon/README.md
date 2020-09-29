@@ -5,6 +5,32 @@
 </div>
 <hr>
 
+<div class="tech_list">
+	<h2>All browsers</h2>
+  <ul>
+    <li><img src="browsers/chrome.png" srcset="browsers/chrome_2x.png 2x" title="Chrome" alt="chrome"></li>
+    <li><img src="browsers/safari.png" srcset="browsers/safari_2x.png 2x" title="Safari" alt="Safari"></li>
+    <li><img src="browsers/firefox.png" srcset="browsers/firefox_2x.png 2x" title="Firefox" alt="Firefox"></li>
+    <li><img src="browsers/ie.png" srcset="browsers/ie_2x.png 2x" title="Internet Explorer" alt="Internet Explorer"></li>
+    <li><img src="browsers/edge.png" srcset="browsers/edge_2x.png 2x" title="Edge" alt="Edge"></li>
+  </ul>
+<hr>
+<h2>All platforms</h2>
+<ul>
+    <li><img src="platforms/ios_13.png" srcset="platforms/ios_13_2x.png 2x" title="iOS" alt="iOS"></li>
+    <li><img src="platforms/android.png" srcset="platforms/android_2x.png 2x" title="Android" alt="Android"></li>
+    <li><img src="platforms/windows.png" srcset="platforms/windows_2x.png 2x" title="Windows" alt="Windows"></li>
+    <li><img src="platforms/mac_os_x.png" srcset="platforms/mac_os_x_2x.png 2x" title="Mac OS X" alt="Mac OS X"></li>
+    <li><img src="platforms/google.png" srcset="platforms/google_2x.png 2x" title="Google Result Pages" alt="Google Result Pages"></li>
+</ul>
+<hr>
+<h2>Google Web Starter Kit</h2>
+<ul>
+	<li>
+    <img src="technologies/google-web-starter-kit.png" srcset="technologies/google-web-starter-kit_2x.png 2x" title="Favicon for Google Web Starter Kit" alt="Favicon for Google Web Starter Kit"></li>
+</ul>
+</div>
+<hr>
 ## Was sind Favicons?
 
 Favicons sind kleine Symboldateien, die neben der URL von Websiten angezeigt wird. URL kennst du von der Adressleiste deines Browsers wie Google Chrome oder Internet Explorer. Darüber hinaus werden sie häufig neben dem Namen der Site in der Liste der geöffneten Registerkarten und Lesezeichenlisten angezeigt. Letztlich helfen Favicons dabei, sich leichter zurecht zufinden. Als Entwickler bieten Favicons neben Cookies jeden zwischen identifizieren zu können
