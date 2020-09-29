@@ -6,13 +6,13 @@
 <div>
 <hr>
 
-<center>
+<div align="center">
 
-| <h2>Alle Browser</h2> | <h2>Alle Plattformen</h2> | <h2>Web Kit Google</h2> |
+| Alle Browser | Alle Plattformen | Web Kit Google |
 -|-|-
 |<br><img src="browsers/ie.png"> <img src="browsers/safari.png"> <img src="browsers/chrome.png"><hr><img src="browsers/firefox.png"> <img src="browsers/edge.png"> |<br><img src="platforms/ios_13.png"/> <img src="platforms/android.png"/><hr><img src="platforms/windows.png"/> <img src="platforms/mac_os_x.png"/> <img src="platforms/google.png"/> | <img src="technologies/google-web-starter-kit.png"><hr><br> | 
 
-</center>
+</div>
 
 #
 ## Was sind Favicons
