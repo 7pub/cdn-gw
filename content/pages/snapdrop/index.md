@@ -1,0 +1,22 @@
+#
+
+<strong>Title:</strong> Display Snapdrop using iFrame<br>
+<strong>Short:</strong> Using ``main`` html-tag as holding element to load an iFrame throuh jQuery as container<br>
+<strong>path: </strong>cdn-gw\content\pages\snapdrop\index | <strong>Host: </strong>Github
+#
+```
+<main id="3SChat" class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="form-group col-md-12">
+            </div>
+        </div>
+        <div class="git-container">
+            <iframe src="https://3SAirshare.net/" 
+                    style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0 0 0 0; padding:0px 0px 150px 0px; overflow:hidden; z-index:999999;">
+                Your browser doesn't support iframes
+            </iframe>
+        </div>
+    </div>
+</main>
+```
