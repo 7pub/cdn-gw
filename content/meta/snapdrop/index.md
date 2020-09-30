@@ -1,10 +1,7 @@
 #
 
-<strong>Title:</strong> Display Snapdrop using iFrame<br>
-<strong>Short:</strong> Using ``main`` html-tag as holding element to load an iFrame throuh jQuery as container<br>
-<strong>path: </strong>cdn-gw\content\pages\snapdrop\index | <strong>Host: </strong>Github
-#
-```
+```code
+
 <main id="3SChat" class="page-content">
     <div class="container-fluid">
         <div class="row">
@@ -19,4 +16,6 @@
         </div>
     </div>
 </main>
+
 ```
+#
