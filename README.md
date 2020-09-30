@@ -82,3 +82,4 @@ wie der Name geändert wird.
 
 <hr>
 Weitere Informationen finden Sie unter [http://unlicense.org](http://unlicense.org)
+<hr>
