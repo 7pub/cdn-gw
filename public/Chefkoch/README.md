@@ -1,11 +1,11 @@
-#### \7pub\cdn-gw\public\Chefkoch\
+<body style="background-color: rgb(229,232,237); font-size: 0.8em;">
+
 #
 
 ```code
 
-<link rel="stylesheet" href="/cdn-gw/root/load.css" />
-<iframe id="iFrame" src="/Chefkoch/" data-hj-allow-iframe=""> 
-    Your browser doesn't support QR-Codes 
-</iframe>
+nothing here
 
 ```
+
+#

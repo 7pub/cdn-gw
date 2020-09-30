@@ -1,4 +1,4 @@
-cdn-gw\public\tricon\README.md
+cdn-gw\public\tricon\index.md
 
 ```
 <link rel="stylesheet" href="/cdn-gw/root/load.css" />

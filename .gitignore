@@ -21,3 +21,7 @@ _source/Chatrooms/node_modules/.bin/opener
 .source/Chatrooms/node_modules/.bin/opener
 public/snapdrop/
 /favicon/node_modules/.bin
+.dev
+/content/.dev
+/content/docs/.dev
+/public/3SChat/public/.dev
