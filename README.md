@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>CALIDEV</title>
-		<meta http-equiv="refresh" content="; https://7pub.github.io/RESTful/">
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-		<link rel="icon" type="image/x-icon" href="/cdn-gw/favicon/defaut/Crown/favicon.ico" />
-		<link rel="stylesheet" src="../cdn-gw/css/readme.css" />
-		<script  src="../cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
-        <script>
-            function loadStyle(directory, files) {
-                var head = document.getElementsByTagName("head")[0]
-                var extension = '.css'
-                for (var file of files) {
-                    var path = directory + file + extension
-                    var link = document.createElement("link")
-                    link.href = path
-                    link.type = "text/css"
-                    link.rel = "stylesheet"
-                    head.appendChild(link)
-                }
-            }
-            //(() => loadStyle('/cdn-gw/css/', ['readme']))();
-            //(() => loadStyle('/_site/css/vendor/jq/',  ['jquery-1.4.5.mobile.min']))();
-            //(() => loadStyle('/_site/css/vendor/bs/',  ['bootstrap-4.0.0.min']))();
-            //(() => loadStyle('/_site/css/vendor/fa/', ['all']))();
-            //(() => loadStyle('/_site/css/', ['']))();
-        </script>
+<head>
+    <meta charset="utf-8" />
+    <title>CALIDEV</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta http-equiv="refresh" content="; https://7pub.github.io/RESTful/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script  src="../cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="/cdn-gw/favicon/defaut/Crown/favicon.ico" />
+    <link rel="stylesheet" src="../cdn-gw/css/readme.css" />
+    <script>
+        //function loadStyle(directory, files) {
+        //    var head = document.getElementsByTagName("head")[0]
+        //    var extension = '.css'
+        //    for (var file of files) {
+        //        var path = directory + file + extension
+        //        var link = document.createElement("link")
+        //        link.href = path
+        //        link.type = "text/css"
+        //        link.rel = "stylesheet"
+        //        head.appendChild(link)
+        //    }
+        //}
+        //(() => loadStyle('/cdn-gw/css/', ['readme']))();
+        //(() => loadStyle('/_site/css/vendor/jq/',  ['jquery-1.4.5.mobile.min']))();
+        //(() => loadStyle('/_site/css/vendor/bs/',  ['bootstrap-4.0.0.min']))();
+        //(() => loadStyle('/_site/css/vendor/fa/', ['all']))();
+        //(() => loadStyle('/_site/css/', ['']))();
+    </script>
 </head>
 <body style="background-color: rgb(229,232,237); font-size: 0.8em;">
 <div align="right"><code> https://7pub.github.io/cdn-gw/</code><br>
