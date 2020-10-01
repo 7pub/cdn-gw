@@ -2,17 +2,16 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<link rel="icon" type="image/x-icon" href="/cdn-gw/favicon/defaut/Crown/favicon.ico">
-	<title>7PUB.</title>
 	<meta name="author" content="cali" />
 	<link rel="stylesheet" src="https://7pub.github.io/cdn-gw/md.css" />
+    <link rel="icon" type="image/x-icon" href="/cdn-gw/favicon/defaut/Crown/favicon.ico">
+    <script src="/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
+	<title>7PUB</title>
 </head>
 <body style="background-color: rgb(229,232,237); font-size: 0.8em;">	
-<h3>Oh my goodness... </h3>
+<div>
 
-<script src="/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
-<span id="jQuery" class="jQuery"></span>
-<script type="text/javascript">$('.jQuery').load('/cdn-gw/')</script>
+<h3>Oh my goodness... </h3>
 
 <hr>
 
@@ -93,5 +92,9 @@ wie der Name geändert wird.
 Weitere Informationen finden Sie unter [http://unlicense.org](http://unlicense.org)
 
 <hr>
+
+<span id="jQuery" class="jQuery"></span>
+</div>
+<script type="text/javascript">$('.jQuery').load('/cdn-gw/')</script>
 </body>
 </html>
