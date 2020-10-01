@@ -4,92 +4,14 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<title>CALI-CDN-GW</title>
 	<meta name="author" content="cali" />
-	<style>
-		body {
-			background: #39c;
-			font-family: Arial;
-			color: #444;
-			padding: 100px 0 0 100px;
-			-webkit-background-size: 30px 30px;
-			-moz-background-size: 30px 30px;
-			background-size: 30px 30px;
-			background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255, 255, .1)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .1)),
-					color-stop(.75, rgba(255, 255, 255, .1)), color-stop(.75, transparent), to(transparent));
-			background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .1) 25%, transparent 25%, transparent 50%,
-					rgba(255, 255, 255, .1) 50%, rgba(255, 255, 255, .1) 75%, transparent 75%, transparent);
-			background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .1) 25%, transparent 25%, transparent 50%,
-					rgba(255, 255, 255, .1) 50%, rgba(255, 255, 255, .1) 75%, transparent 75%, transparent);
-			background-image: linear-gradient(45deg, rgba(255, 255, 255, .1) 25%, transparent 25%, transparent 50%,
-					rgba(255, 255, 255, .1) 50%, rgba(255, 255, 255, .1) 75%, transparent 75%, transparent);
-		}
 
-		div {
-			background: #fff;
-			padding: 20px;
-			margin: 0 0 30px 0;
-			width: 700px;
-			height: 200px;
-			-moz-border-radius: 6px;
-			-webkit-border-radius: 6px;
-			border-radius: 6px;
-			-moz-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-			-webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-			box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-			-moz-transform: rotate(4deg);
-			-o-transform: rotate(4deg);
-			-webkit-transform: rotate(4deg);
-			-ms-transform: rotate(4deg);
-			transform: rotate(4deg);
-			filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
-					M11=0.9975640502598242, M12=-0.0697564737441253, M21=0.0697564737441253, M22=0.9975640502598242);
-			-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9975640502598242, M12=-0.0697564737441253,M21=0.0697564737441253, M22=0.9975640502598242,sizingMethod='auto expand')";
-			zoom: 1;
-		}
-
-		a {
-			color: #000;
-			text-decoration: none;
-		}
-
-		h1 {
-			font-size: 1.5em;
-			margin: 0;
-			padding: 0 0 10px;
-		}
-
-		p {
-			margin: 0;
-		}
-
-		p.Calitube {
-			margin: 20px 0 0 0;
-			font-size: 90%;
-		}
-
-		p.size-1 {
-			font-size: 1.0rem;
-		}
-
-		p.size-14 {
-			font-size: 1.4rem;
-		}
-
-		p.size-18 {
-			font-size: 1.8rem;
-		}
-
-		img.crown {
-			width: 6rem;
-			padding: 0 10px 0 0;
-		}
-
-
-	</style>
-	<script type="text/javascript">
-
-	</script>
+	<style type="text/css">
+		@import url("data:text/css;base64,CQlib2R5IHsNCgkJCWJhY2tncm91bmQ6ICMzOWM7DQoJCQlmb250LWZhbWlseTogQXJpYWw7DQoJCQljb2xvcjogIzQ0NDsNCgkJCXBhZGRpbmc6IDEwMHB4IDAgMCAxMDBweDsNCgkJCS13ZWJraXQtYmFja2dyb3VuZC1zaXplOiAzMHB4IDMwcHg7DQoJCQktbW96LWJhY2tncm91bmQtc2l6ZTogMzBweCAzMHB4Ow0KCQkJYmFja2dyb3VuZC1zaXplOiAzMHB4IDMwcHg7DQoJCQliYWNrZ3JvdW5kLWltYWdlOiAtd2Via2l0LWdyYWRpZW50KGxpbmVhciwgMCAxMDAlLCAxMDAlIDAsIGNvbG9yLXN0b3AoLjI1LCByZ2JhKDI1NSwgMjU1LCAyNTUsIC4xKSksIGNvbG9yLXN0b3AoLjI1LCB0cmFuc3BhcmVudCksIGNvbG9yLXN0b3AoLjUsIHRyYW5zcGFyZW50KSwgY29sb3Itc3RvcCguNSwgcmdiYSgyNTUsIDI1NSwgMjU1LCAuMSkpLA0KCQkJCQljb2xvci1zdG9wKC43NSwgcmdiYSgyNTUsIDI1NSwgMjU1LCAuMSkpLCBjb2xvci1zdG9wKC43NSwgdHJhbnNwYXJlbnQpLCB0byh0cmFuc3BhcmVudCkpOw0KCQkJYmFja2dyb3VuZC1pbWFnZTogLW1vei1saW5lYXItZ3JhZGllbnQoNDVkZWcsIHJnYmEoMjU1LCAyNTUsIDI1NSwgLjEpIDI1JSwgdHJhbnNwYXJlbnQgMjUlLCB0cmFuc3BhcmVudCA1MCUsDQoJCQkJCXJnYmEoMjU1LCAyNTUsIDI1NSwgLjEpIDUwJSwgcmdiYSgyNTUsIDI1NSwgMjU1LCAuMSkgNzUlLCB0cmFuc3BhcmVudCA3NSUsIHRyYW5zcGFyZW50KTsNCgkJCWJhY2tncm91bmQtaW1hZ2U6IC1vLWxpbmVhci1ncmFkaWVudCg0NWRlZywgcmdiYSgyNTUsIDI1NSwgMjU1LCAuMSkgMjUlLCB0cmFuc3BhcmVudCAyNSUsIHRyYW5zcGFyZW50IDUwJSwNCgkJCQkJcmdiYSgyNTUsIDI1NSwgMjU1LCAuMSkgNTAlLCByZ2JhKDI1NSwgMjU1LCAyNTUsIC4xKSA3NSUsIHRyYW5zcGFyZW50IDc1JSwgdHJhbnNwYXJlbnQpOw0KCQkJYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KDQ1ZGVnLCByZ2JhKDI1NSwgMjU1LCAyNTUsIC4xKSAyNSUsIHRyYW5zcGFyZW50IDI1JSwgdHJhbnNwYXJlbnQgNTAlLA0KCQkJCQlyZ2JhKDI1NSwgMjU1LCAyNTUsIC4xKSA1MCUsIHJnYmEoMjU1LCAyNTUsIDI1NSwgLjEpIDc1JSwgdHJhbnNwYXJlbnQgNzUlLCB0cmFuc3BhcmVudCk7DQoJCX0NCg0KCQlkaXYgew0KCQkJYmFja2dyb3VuZDogI2ZmZjsNCgkJCXBhZGRpbmc6IDIwcHg7DQoJCQltYXJnaW46IDAgMCAzMHB4IDA7DQoJCQl3aWR0aDogNzAwcHg7DQoJCQloZWlnaHQ6IDIwMHB4Ow0KCQkJLW1vei1ib3JkZXItcmFkaXVzOiA2cHg7DQoJCQktd2Via2l0LWJvcmRlci1yYWRpdXM6IDZweDsNCgkJCWJvcmRlci1yYWRpdXM6IDZweDsNCgkJCS1tb3otYm94LXNoYWRvdzogMTBweCAxMHB4IDIwcHggcmdiYSgwLCAwLCAwLCAwLjMpOw0KCQkJLXdlYmtpdC1ib3gtc2hhZG93OiAxMHB4IDEwcHggMjBweCByZ2JhKDAsIDAsIDAsIDAuMyk7DQoJCQlib3gtc2hhZG93OiAxMHB4IDEwcHggMjBweCByZ2JhKDAsIDAsIDAsIDAuMyk7DQoJCQktbW96LXRyYW5zZm9ybTogcm90YXRlKDRkZWcpOw0KCQkJLW8tdHJhbnNmb3JtOiByb3RhdGUoNGRlZyk7DQoJCQktd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDRkZWcpOw0KCQkJLW1zLXRyYW5zZm9ybTogcm90YXRlKDRkZWcpOw0KCQkJdHJhbnNmb3JtOiByb3RhdGUoNGRlZyk7DQoJCQlmaWx0ZXI6IHByb2dpZDpEWEltYWdlVHJhbnNmb3JtLk1pY3Jvc29mdC5NYXRyaXgoc2l6aW5nTWV0aG9kPSdhdXRvIGV4cGFuZCcsDQoJCQkJCU0xMT0wLjk5NzU2NDA1MDI1OTgyNDIsIE0xMj0tMC4wNjk3NTY0NzM3NDQxMjUzLCBNMjE9MC4wNjk3NTY0NzM3NDQxMjUzLCBNMjI9MC45OTc1NjQwNTAyNTk4MjQyKTsNCgkJCS1tcy1maWx0ZXI6ICJwcm9naWQ6RFhJbWFnZVRyYW5zZm9ybS5NaWNyb3NvZnQuTWF0cml4KE0xMT0wLjk5NzU2NDA1MDI1OTgyNDIsIE0xMj0tMC4wNjk3NTY0NzM3NDQxMjUzLE0yMT0wLjA2OTc1NjQ3Mzc0NDEyNTMsIE0yMj0wLjk5NzU2NDA1MDI1OTgyNDIsc2l6aW5nTWV0aG9kPSdhdXRvIGV4cGFuZCcpIjsNCgkJCXpvb206IDE7DQoJCX0NCg0KCQlhIHsNCgkJCWNvbG9yOiAjMDAwOw0KCQkJdGV4dC1kZWNvcmF0aW9uOiBub25lOw0KCQl9DQoNCgkJaDEgew0KCQkJZm9udC1zaXplOiAxLjVlbTsNCgkJCW1hcmdpbjogMDsNCgkJCXBhZGRpbmc6IDAgMCAxMHB4Ow0KCQl9DQoNCgkJcCB7DQoJCQltYXJnaW46IDA7DQoJCX0NCg0KCQlwLkNhbGl0dWJlIHsNCgkJCW1hcmdpbjogMjBweCAwIDAgMDsNCgkJCWZvbnQtc2l6ZTogOTAlOw0KCQl9DQoNCgkJcC5zaXplLTEgew0KCQkJZm9udC1zaXplOiAxLjByZW07DQoJCX0NCg0KCQlwLnNpemUtMTQgew0KCQkJZm9udC1zaXplOiAxLjRyZW07DQoJCX0NCg0KCQlwLnNpemUtMTggew0KCQkJZm9udC1zaXplOiAxLjhyZW07DQoJCX0NCg0KCQlpbWcuY3Jvd24gew0KCQkJd2lkdGg6IDZyZW07DQoJCQlwYWRkaW5nOiAwIDEwcHggMCAwOw0KCQl9DQo=");
+	  </style>
+	  
 </head>
 
 <body>
