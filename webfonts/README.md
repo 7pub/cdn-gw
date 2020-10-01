@@ -7,59 +7,8 @@
 </head>
 <body>	
 <div>
-<div align="right"><img src="https://img.shields.io/badge/Calirun-Projekte-blue" /></div>
-<hr>
 <div align="right"><code> https://7pub.github.io/cdn-gw/webfonts/</code> </div>
-<h3>Oh my goodness... </h3>
-<hr>
-
-  nothing here for you i guess
-
-<hr>
-
-```code
-
-                          ,,:cc$$$$$$$$$$$Cccc
-                      ,,c$$$$$$$$$$$$$$$$$$$$$Cc
-                    ,c$$$$$$$$$$$$$$$$$$$$$$$$$$ßc
-                ,c$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ßc
-              ,d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ßc 
-              ,$$$$$$$d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Cc
-            ,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ß 
-            J$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$;
-            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$; 
-            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$d$$$$$$$;
-            `$$$$$$$$`nnn'$$$$$$$$$$$$$$$",d$ $$$$$$; 
-              `$$$$$$$ MMMM`$$$$$$$$$$$$F,MMMb`$$$$$$
-                `$$$$$$ MTTM.?$$$$$$$$$$$,MMMMM $$$$$;
-                `$$$$$$     `$$$$$$$$$$$,    $$$$$$$$
-                  ?$$$$$,( `) $$$$$$$$$$ ,;`)$$$$$$$;
-                    ?$$$$,(&) $$$$$$$$$$ (&; )$$$$$$;
-                      `$$$$.`-; $$$$$$$$$$,`--;,$$$$;
-                    $$$$$hh$$$$$????$$$hc$$$$$$$$$$;
-                    $$$$$$$$$$$$ `======; $$$$$$$$$$;
-                    `$$$$$$$$$$$$$c,,,,c$$$$$$$$$$$;
-                      "*$$$$P"" "$$$$$$?????$$??"
-                                  $$$$$ 
-                                  $$$$$\
-                                ,$$$$$$$\
-                                $$$$$$$$$$$
-                              $$$$$$$$$$$$$
-                              $$$$$$$$$$$$$$
-                              $$$$$$$$$$$$$$$
-                              $$$$$$$$$$$$$$$
-                                $$$$$$$$$$$$$$
-                                `$$$$$$$$$$F
-                                `CCC´ `CC$
-                                  CCC   CCC
-            ,;CCCC;,,             CCC   CCCC
-          CCCCCCCCCCCCCCCCCCCCCCCCCC   `CCCCCCCCCCCCC.,,,,,;CCCC;,,
-          CCCCCCCCCCCCCCCCCCCCCCCC/     `CCCCCCCCCCCCCCCCCCCCCCCCCC
-            CCCCCCCCCCCCCCCCCCCCCC;       `CCCCCCCCCCCCCCCCCCCCCCCCc
-            *CCCCCCCCCCCCCCCCCC;/          \CCCCCCCCCCCCCCCCCcCCC°
-
-```
-
+<div align="right"><img src="https://img.shields.io/badge/Calirun-Projekte-blue" /></div>
 <hr>
 
 ## 📄 License

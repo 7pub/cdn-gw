@@ -5,7 +5,7 @@
 <meta name="author" content="cali" >
 <title>7PUB</title>
 <link rel="icon" type="image/x-icon" href="/cdn-gw/favicon/defaut/Crown/favicon.ico" />
-<link rel="stylesheet" src="/cdn-gw/md.css" />
+<link rel="stylesheet" src="/cdn-gw/css/readme.css" />
 <script  src="/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
 </head>
 <body style="background-color: rgb(229,232,237); font-size: 0.8em;">
