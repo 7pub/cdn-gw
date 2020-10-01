@@ -17,8 +17,7 @@
   <style type="text/css">
     body{
         background-color: rgb(229,232,237); 
-        font-size: 0.8em;
-    }
+        font-size: 0.8em;}
   </style>
   <script type="text/javascript">
    var _gaq = _gaq || [];
