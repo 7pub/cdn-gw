@@ -3,12 +3,13 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="author" content="cali" />
-	<link rel="stylesheet" src="https://7pub.github.io/cdn-gw/md.css" />
-    <link rel="icon" type="image/x-icon" href="/cdn-gw/favicon/defaut/Crown/favicon.ico">
-    <script src="/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
 	<title>7PUB</title>
+    	<link rel="stylesheet" src="https://7pub.github.io/cdn-gw/md.css" />
+        <link rel="icon" type="image/x-icon" href="/cdn-gw/favicon/defaut/Crown/favicon.ico">
+        <script src="/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
 </head>
 <body style="background-color: rgb(229,232,237); font-size: 0.8em;">	
+
 <div>
 
 <h3>Oh my goodness... </h3>
