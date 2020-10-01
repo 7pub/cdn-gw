@@ -26,10 +26,6 @@ function Blockrain() { location.href = "/_site/public/Blockrain/"; } //[GAME]
 function Bricks() { location.href = "/_site/public/Bricks/"; } //[GAME]
 function Hexagon() { location.href = "/_site/public/Hexagon/"; } //[GAME]
 
-
-
-
-
 $(document).ready(function() {
     $(".spinner").spinner();
     $(".spinner").click(function(event) { $(this).removeAttr('readonly').select(); });
