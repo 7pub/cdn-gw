@@ -16,14 +16,15 @@
   <a href="favicon-16x16.png" target="_blank"><img src="favicon-16x16.png" /></a>
 </p>
 
-
 <h2>Kurzanleitung</h2>
+
 <ul>
   <li>1) Folgenden Code kopieren und im Kopfbereich <strong>```<head>```</strong> deines HTML-Dokuments einfügen.<br></li>
   <li>2) Speichere den Download im Stammverzeichniss deines Projekts.<br></li>
   <li>3) Den folgenden Code im Kopfbereich<head> deines HTML-Dokuments einfügen</li>
   <li>4) fine</li>
 </ul>
+
 <hr>
 
 <h2> Downloads</h2>

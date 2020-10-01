@@ -1,20 +1,16 @@
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta charset="utf-8" >
 <link rel="icon" type="image/x-icon" href="/cdn-gw/favicon/defaut/Crown/favicon.ico">
+<link rel="stylesheet" src="/cdn-gw/md.css" />
 <title>7PUB</title>
-
-<meta name="author" content="cali" />
-
-<link rel="stylesheet" src="https://7pub.github.io/cdn-gw/md.css" />
-
 </head>
-
-<body style="background-color: rgb(229,232,237); font-size: 0.8em;">	
-
+<body>	
+<div>
+<div align="right"><img src="https://img.shields.io/badge/Calirun-Projekte-blue" /></div>
+<hr>
+<div align="right"><code> https://7pub.github.io/cdn-gw/webfonts/</code> </div>
 <h3>Oh my goodness... </h3>
-
 <hr>
 
   nothing here for you i guess
@@ -95,7 +91,10 @@ wie der Name geändert wird.
 | Copyright (C) 2019 Karl Achleitner theorem.system@protonmail.com | ![Crown](/cdn-gw/img/WTFPL/wtfpl-badge-4.png) |
 
 <hr>
+
 Weitere Informationen finden Sie unter [http://unlicense.org](http://unlicense.org)
+
 <hr>
+</div>
 </body>
 </html>

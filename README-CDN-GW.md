@@ -1,66 +1,59 @@
-<html lang="en">
-
+<html>
 <head>
-
 <meta charset="utf-8" >
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
 <meta name="author" content="cali" >
-
 <title>7PUB</title>
-
 <link rel="icon" type="image/x-icon" href="/cdn-gw/favicon/defaut/Crown/favicon.ico" />
-<link rel="stylesheet" src="https://7pub.github.io/cdn-gw/md.css" />
-
+<link rel="stylesheet" src="/cdn-gw/md.css" />
 <script  src="/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
-
 </head>
 <body>	
-
 <div>
-
-<h3>Oh my goodness... </h3>
-
+<div align="right"><img src="https://img.shields.io/badge/Calirun-Projekte-blue" /></div>
 <hr>
+<div align="right"><code> https://7pub.github.io/cdn-gw/</code> </div>
+<h3>Oh my goodness...</h3>
 
 ```code
 
                           ,,:cc$$$$$$$$$$$Cccc
                       ,,c$$$$$$$$$$$$$$$$$$$$$Cc
-                    ,c$$$$$$$$$$$$$$$$$$$$$$$$$$ßc
-                ,c$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ßc
-              ,d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ßc 
-              ,$$$$$$$d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Cc
+                  ,c$$$$$$$$$$$$$$$$$$$$$$$$$$$$ßc
+                ,c$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ßc
+              ,d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ßc 
+             ,$$$$$$$d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Cc
             ,$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ß 
             J$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$;
             $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$; 
-            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$d$$$$$$$;
-            `$$$$$$$$`nnn'$$$$$$$$$$$$$$$",d$ $$$$$$; 
-              `$$$$$$$ MMMM`$$$$$$$$$$$$F,MMMb`$$$$$$
-                `$$$$$$ MTTM.?$$$$$$$$$$$,MMMMM $$$$$;
-                `$$$$$$     `$$$$$$$$$$$,    $$$$$$$$
-                  ?$$$$$,( `) $$$$$$$$$$ ,;`)$$$$$$$;
-                    ?$$$$,(&) $$$$$$$$$$ (&; )$$$$$$;
+            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$d$$$$$$$;
+            `$$$$$$$$`nnn'$$$$$$$$$$$$$$$",d$ $$$$$$$$; 
+             `$$$$$$$ MMMM`$$$$$$$$$$$$F,MMMb `$$$$$$$;
+               `$$$$$$ MTTM.?$$$$$$$$$$$,MMMMM $$$$$$$;
+                 `$$$$$$     `$$$$$$$$$$$,    $$$$$$$$
+                   ?$$$$$,( `) $$$$$$$$$$ ,;`) $$$$$$$;
+                     ?$$$$,(&)  $$$$$$$$$$ (&; )$$$$$;
                       `$$$$.`-; $$$$$$$$$$,`--;,$$$$;
-                    $$$$$hh$$$$$????$$$hc$$$$$$$$$$;
-                    $$$$$$$$$$$$ `======; $$$$$$$$$$;
-                    `$$$$$$$$$$$$$c,,,,c$$$$$$$$$$$;
-                      "*$$$$P"" "$$$$$$?????$$??"
+                      $$$$$hh$$$$$????$$$hc$$$$$$$$$$;
+                      $$$$$$$$$$$$ `======;$$$$$$$$$$;
+                      `$$$$$$$$$$$$$c,,,c$$$$$$$$$$$;
+                       "*$$$$P"" "$$$$$$?$$????$$??"
                                   $$$$$ 
                                   $$$$$\
                                 ,$$$$$$$\
-                                $$$$$$$$$$$
+                               $$$$$$$$$$$
                               $$$$$$$$$$$$$
                               $$$$$$$$$$$$$$
                               $$$$$$$$$$$$$$$
                               $$$$$$$$$$$$$$$
-                                $$$$$$$$$$$$$$
+                              `$$$$$$$$$$$$$$
                                 `$$$$$$$$$$F
-                                `CCC´ `CC$
+                                 `CCC´ `CC$
                                   CCC   CCC
-            ,;CCCC;,,             CCC   CCCC
+          ,;CCCC;,,              CCC   CCCC
           CCCCCCCCCCCCCCCCCCCCCCCCCC   `CCCCCCCCCCCCC.,,,,,;CCCC;,,
           CCCCCCCCCCCCCCCCCCCCCCCC/     `CCCCCCCCCCCCCCCCCCCCCCCCCC
-            CCCCCCCCCCCCCCCCCCCCCC;       `CCCCCCCCCCCCCCCCCCCCCCCCc
+           CCCCCCCCCCCCCCCCCCCCCC;       `CCCCCCCCCCCCCCCCCCCCCCCCc
             *CCCCCCCCCCCCCCCCCC;/          \CCCCCCCCCCCCCCCCCcCCC°
 
 ```
