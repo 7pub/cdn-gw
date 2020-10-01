@@ -2,7 +2,7 @@
 <head>
 <meta charset="utf-8" >
 <link rel="icon" type="image/x-icon" href="/cdn-gw/favicon/defaut/Crown/favicon.ico">
-<link rel="stylesheet" src="/cdn-gw/md.css" />
+<link rel="stylesheet" src="/cdn-gw/css/readme.css" />
 <title>7PUB</title>
 </head>
 <body>	
