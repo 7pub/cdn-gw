@@ -4,6 +4,7 @@
 <p>Dadurch wird der Speicherort und eine Liste der installierten Module ausgegeben.</p>
 
 <p style="font-color:">Beispiel Ausgabe</p>
+
 ```code
 --------------------------------------------------------------------------
 
