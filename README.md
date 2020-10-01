@@ -47,7 +47,7 @@
 		<br>
 		<br><br><br>
 		<p class="Calitube" id="font">
-			Sucht du die <i>Desktop-App von Youtube für Windows?</i><br>
+			Sucht du die <i>Desktop-App von Youtube inkl. Chromecast Unterstützung</i><br>
 			Hier kommst du trotzdem zum | <a href="/cdn-gw/download/">Open Download Site</a> |</p>
 		<br>
 		<p class="uri" align="right"><a href="//www.cali.run">www.cali.run</a></p>
