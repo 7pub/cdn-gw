@@ -8,8 +8,8 @@
 
 <title>7PUB</title>
 
-<link rel="icon" type="image/x-icon" href="/cdn-gw/favicon/defaut/Crown/favicon.ico" >
-<link rel="stylesheet" src="https://7pub.github.io/cdn-gw/md.css" >
+<link rel="icon" type="image/x-icon" href="/cdn-gw/favicon/defaut/Crown/favicon.ico" />
+<link rel="stylesheet" src="https://7pub.github.io/cdn-gw/md.css" />
 
 <script  src="/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
 
