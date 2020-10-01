@@ -32,6 +32,12 @@
   </script>
   </head>
   <body>
+
+<link rel="stylesheet" href="/cdn-gw/root/load.css" />
+<iframe id="iFrame" src="/docs/docs.html" data-hj-allow-iframe=""> 
+    Your browser doesn't support QR-Codes 
+</iframe>
+
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js" type="text/javascript"></script>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js" type="text/javascript"></script>
@@ -42,7 +48,6 @@
   <script type="text/javascript">
    function autorun()
    {
-    
    }
    if (document.addEventListener) document.addEventListener("DOMContentLoaded", autorun, false);
    else if (document.attachEvent) document.attachEvent("onreadystatechange", autorun);
