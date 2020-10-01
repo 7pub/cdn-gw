@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head>
-
-</head>
+<head></head>
 <body style="background-color: rgb(229,232,237); font-size: 0.8em;">
 <main id="3SChat" class="page-content">
     <div class="container-fluid">
