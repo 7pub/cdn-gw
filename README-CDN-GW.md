@@ -8,12 +8,15 @@
 <link rel="stylesheet" src="/cdn-gw/md.css" />
 <script  src="/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
 </head>
-<body>	
+<body style="background-color: rgb(229,232,237); font-size: 0.8em;">
 <div>
-<div align="right"><img src="https://img.shields.io/badge/Calirun-Projekte-blue" /></div>
+<div align="right"><code> https://7pub.github.io/cdn-gw/</code><br>
+<img src="https://img.shields.io/badge/Calirun-Projekte-blue" /></div>
+
+	nothing here
+
 <hr>
-<div align="right"><code> https://7pub.github.io/cdn-gw/</code> </div>
-<h3>Oh my goodness...</h3>
+
 
 ```code
 
@@ -94,7 +97,7 @@ wie der Name geändert wird.
 
 |   | Version.02 |
 | - | - |
-| Copyright (C) 2019 Karl Achleitner theorem.system@protonmail.com | ![Crown](img\WTFPL\wtfpl-badge-4.png) |
+| Copyright (C) 2019 Karl Achleitner theorem.system@protonmail.com | ![Crown](/img/WTFPL/wtfpl-badge-4.png) |
 
 <hr>
 Weitere Informationen finden Sie unter [http://unlicense.org](http://unlicense.org)
