@@ -4,17 +4,94 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<link rel="icon" type="image/x-icon" href="favicon/defaut/Crown/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="/favicon/defaut/Crown/favicon.ico">
 	<title>CALI-CDN-GW</title>
 	<meta name="author" content="cali" />
+	<style>
+		body {
+			background: #39c;
+			font-family: Arial;
+			color: #444;
+			padding: 100px 0 0 100px;
+			-webkit-background-size: 30px 30px;
+			-moz-background-size: 30px 30px;
+			background-size: 30px 30px;
+			background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255, 255, .1)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .1)),
+					color-stop(.75, rgba(255, 255, 255, .1)), color-stop(.75, transparent), to(transparent));
+			background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .1) 25%, transparent 25%, transparent 50%,
+					rgba(255, 255, 255, .1) 50%, rgba(255, 255, 255, .1) 75%, transparent 75%, transparent);
+			background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .1) 25%, transparent 25%, transparent 50%,
+					rgba(255, 255, 255, .1) 50%, rgba(255, 255, 255, .1) 75%, transparent 75%, transparent);
+			background-image: linear-gradient(45deg, rgba(255, 255, 255, .1) 25%, transparent 25%, transparent 50%,
+					rgba(255, 255, 255, .1) 50%, rgba(255, 255, 255, .1) 75%, transparent 75%, transparent);
+		}
 
-	<style type="text/css">
-		@import url("data:text/css;base64,WW05a2VTQjdEUW9KQ1FsaVlXTnJaM0p2ZFc1a09pQWpNemxqT3cwS0NRa0pabTl1ZEMxbVlXMXBiSGs2SUVGeWFXRnNPdzBLQ1FrSlkyOXNiM0k2SUNNME5EUTdEUW9KQ1Fsd1lXUmthVzVuT2lBeE1EQndlQ0F3SURBZ01UQXdjSGc3RFFvSkNRa3RkMlZpYTJsMExXSmhZMnRuY205MWJtUXRjMmw2WlRvZ016QndlQ0F6TUhCNE93MEtDUWtKTFcxdmVpMWlZV05yWjNKdmRXNWtMWE5wZW1VNklETXdjSGdnTXpCd2VEc05DZ2tKQ1dKaFkydG5jbTkxYm1RdGMybDZaVG9nTXpCd2VDQXpNSEI0T3cwS0NRa0pZbUZqYTJkeWIzVnVaQzFwYldGblpUb2dMWGRsWW10cGRDMW5jbUZrYVdWdWRDaHNhVzVsWVhJc0lEQWdNVEF3SlN3Z01UQXdKU0F3TENCamIyeHZjaTF6ZEc5d0tDNHlOU3dnY21kaVlTZ3lOVFVzSURJMU5Td2dNalUxTENBdU1Ta3BMQ0JqYjJ4dmNpMXpkRzl3S0M0eU5Td2dkSEpoYm5Od1lYSmxiblFwTENCamIyeHZjaTF6ZEc5d0tDNDFMQ0IwY21GdWMzQmhjbVZ1ZENrc0lHTnZiRzl5TFhOMGIzQW9MalVzSUhKblltRW9NalUxTENBeU5UVXNJREkxTlN3Z0xqRXBLU3dOQ2drSkNRa0pZMjlzYjNJdGMzUnZjQ2d1TnpVc0lISm5ZbUVvTWpVMUxDQXlOVFVzSURJMU5Td2dMakVwS1N3Z1kyOXNiM0l0YzNSdmNDZ3VOelVzSUhSeVlXNXpjR0Z5Wlc1MEtTd2dkRzhvZEhKaGJuTndZWEpsYm5RcEtUc05DZ2tKQ1dKaFkydG5jbTkxYm1RdGFXMWhaMlU2SUMxdGIzb3RiR2x1WldGeUxXZHlZV1JwWlc1MEtEUTFaR1ZuTENCeVoySmhLREkxTlN3Z01qVTFMQ0F5TlRVc0lDNHhLU0F5TlNVc0lIUnlZVzV6Y0dGeVpXNTBJREkxSlN3Z2RISmhibk53WVhKbGJuUWdOVEFsTEEwS0NRa0pDUWx5WjJKaEtESTFOU3dnTWpVMUxDQXlOVFVzSUM0eEtTQTFNQ1VzSUhKblltRW9NalUxTENBeU5UVXNJREkxTlN3Z0xqRXBJRGMxSlN3Z2RISmhibk53WVhKbGJuUWdOelVsTENCMGNtRnVjM0JoY21WdWRDazdEUW9KQ1FsaVlXTnJaM0p2ZFc1a0xXbHRZV2RsT2lBdGJ5MXNhVzVsWVhJdFozSmhaR2xsYm5Rb05EVmtaV2NzSUhKblltRW9NalUxTENBeU5UVXNJREkxTlN3Z0xqRXBJREkxSlN3Z2RISmhibk53WVhKbGJuUWdNalVsTENCMGNtRnVjM0JoY21WdWRDQTFNQ1VzRFFvSkNRa0pDWEpuWW1Fb01qVTFMQ0F5TlRVc0lESTFOU3dnTGpFcElEVXdKU3dnY21kaVlTZ3lOVFVzSURJMU5Td2dNalUxTENBdU1Ta2dOelVsTENCMGNtRnVjM0JoY21WdWRDQTNOU1VzSUhSeVlXNXpjR0Z5Wlc1MEtUc05DZ2tKQ1dKaFkydG5jbTkxYm1RdGFXMWhaMlU2SUd4cGJtVmhjaTFuY21Ga2FXVnVkQ2cwTldSbFp5d2djbWRpWVNneU5UVXNJREkxTlN3Z01qVTFMQ0F1TVNrZ01qVWxMQ0IwY21GdWMzQmhjbVZ1ZENBeU5TVXNJSFJ5WVc1emNHRnlaVzUwSURVd0pTd05DZ2tKQ1FrSmNtZGlZU2d5TlRVc0lESTFOU3dnTWpVMUxDQXVNU2tnTlRBbExDQnlaMkpoS0RJMU5Td2dNalUxTENBeU5UVXNJQzR4S1NBM05TVXNJSFJ5WVc1emNHRnlaVzUwSURjMUpTd2dkSEpoYm5Od1lYSmxiblFwT3cwS0NRbDlEUW9OQ2drSlpHbDJJSHNOQ2drSkNXSmhZMnRuY205MWJtUTZJQ05tWm1ZN0RRb0pDUWx3WVdSa2FXNW5PaUF5TUhCNE93MEtDUWtKYldGeVoybHVPaUF3SURBZ016QndlQ0F3T3cwS0NRa0pkMmxrZEdnNklEY3dNSEI0T3cwS0NRa0phR1ZwWjJoME9pQXlNREJ3ZURzTkNna0pDUzF0YjNvdFltOXlaR1Z5TFhKaFpHbDFjem9nTm5CNE93MEtDUWtKTFhkbFltdHBkQzFpYjNKa1pYSXRjbUZrYVhWek9pQTJjSGc3RFFvSkNRbGliM0prWlhJdGNtRmthWFZ6T2lBMmNIZzdEUW9KQ1FrdGJXOTZMV0p2ZUMxemFHRmtiM2M2SURFd2NIZ2dNVEJ3ZUNBeU1IQjRJSEpuWW1Fb01Dd2dNQ3dnTUN3Z01DNHpLVHNOQ2drSkNTMTNaV0pyYVhRdFltOTRMWE5vWVdSdmR6b2dNVEJ3ZUNBeE1IQjRJREl3Y0hnZ2NtZGlZU2d3TENBd0xDQXdMQ0F3TGpNcE93MEtDUWtKWW05NExYTm9ZV1J2ZHpvZ01UQndlQ0F4TUhCNElESXdjSGdnY21kaVlTZ3dMQ0F3TENBd0xDQXdMak1wT3cwS0NRa0pMVzF2ZWkxMGNtRnVjMlp2Y20wNklISnZkR0YwWlNnMFpHVm5LVHNOQ2drSkNTMXZMWFJ5WVc1elptOXliVG9nY205MFlYUmxLRFJrWldjcE93MEtDUWtKTFhkbFltdHBkQzEwY21GdWMyWnZjbTA2SUhKdmRHRjBaU2cwWkdWbktUc05DZ2tKQ1MxdGN5MTBjbUZ1YzJadmNtMDZJSEp2ZEdGMFpTZzBaR1ZuS1RzTkNna0pDWFJ5WVc1elptOXliVG9nY205MFlYUmxLRFJrWldjcE93MEtDUWtKWm1sc2RHVnlPaUJ3Y205bmFXUTZSRmhKYldGblpWUnlZVzV6Wm05eWJTNU5hV055YjNOdlpuUXVUV0YwY21sNEtITnBlbWx1WjAxbGRHaHZaRDBuWVhWMGJ5QmxlSEJoYm1RbkxBMEtDUWtKQ1FsTk1URTlNQzQ1T1RjMU5qUXdOVEF5TlRrNE1qUXlMQ0JOTVRJOUxUQXVNRFk1TnpVMk5EY3pOelEwTVRJMU15d2dUVEl4UFRBdU1EWTVOelUyTkRjek56UTBNVEkxTXl3Z1RUSXlQVEF1T1RrM05UWTBNRFV3TWpVNU9ESTBNaWs3RFFvSkNRa3RiWE10Wm1sc2RHVnlPaUFpY0hKdloybGtPa1JZU1cxaFoyVlVjbUZ1YzJadmNtMHVUV2xqY205emIyWjBMazFoZEhKcGVDaE5NVEU5TUM0NU9UYzFOalF3TlRBeU5UazRNalF5TENCTk1USTlMVEF1TURZNU56VTJORGN6TnpRME1USTFNeXhOTWpFOU1DNHdOamszTlRZME56TTNORFF4TWpVekxDQk5Nakk5TUM0NU9UYzFOalF3TlRBeU5UazRNalF5TEhOcGVtbHVaMDFsZEdodlpEMG5ZWFYwYnlCbGVIQmhibVFuS1NJN0RRb0pDUWw2YjI5dE9pQXhPdzBLQ1FsOURRb05DZ2tKWVNCN0RRb0pDUWxqYjJ4dmNqb2dJekF3TURzTkNna0pDWFJsZUhRdFpHVmpiM0poZEdsdmJqb2dibTl1WlRzTkNna0pmUTBLRFFvSkNXZ3hJSHNOQ2drSkNXWnZiblF0YzJsNlpUb2dNUzQxWlcwN0RRb0pDUWx0WVhKbmFXNDZJREE3RFFvSkNRbHdZV1JrYVc1bk9pQXdJREFnTVRCd2VEc05DZ2tKZlEwS0RRb0pDWEFnZXcwS0NRa0piV0Z5WjJsdU9pQXdPdzBLQ1FsOURRb05DZ2tKY0M1RFlXeHBkSFZpWlNCN0RRb0pDUWx0WVhKbmFXNDZJREl3Y0hnZ01DQXdJREE3RFFvSkNRbG1iMjUwTFhOcGVtVTZJRGt3SlRzTkNna0pmUTBLRFFvSkNYQXVjMmw2WlMweElIc05DZ2tKQ1dadmJuUXRjMmw2WlRvZ01TNHdjbVZ0T3cwS0NRbDlEUW9OQ2drSmNDNXphWHBsTFRFMElIc05DZ2tKQ1dadmJuUXRjMmw2WlRvZ01TNDBjbVZ0T3cwS0NRbDlEUW9OQ2drSmNDNXphWHBsTFRFNElIc05DZ2tKQ1dadmJuUXRjMmw2WlRvZ01TNDRjbVZ0T3cwS0NRbDlEUW9OQ2drSmFXMW5MbU55YjNkdUlIc05DZ2tKQ1hkcFpIUm9PaUEyY21WdE93MEtDUWtKY0dGa1pHbHVaem9nTUNBeE1IQjRJREFnTURzTkNna0pmUT09");
-	  </style>
+		div {
+			background: #fff;
+			padding: 20px;
+			margin: 0 0 30px 0;
+			width: 700px;
+			height: 200px;
+			-moz-border-radius: 6px;
+			-webkit-border-radius: 6px;
+			border-radius: 6px;
+			-moz-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+			-webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+			box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+			-moz-transform: rotate(4deg);
+			-o-transform: rotate(4deg);
+			-webkit-transform: rotate(4deg);
+			-ms-transform: rotate(4deg);
+			transform: rotate(4deg);
+			filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+					M11=0.9975640502598242, M12=-0.0697564737441253, M21=0.0697564737441253, M22=0.9975640502598242);
+			-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9975640502598242, M12=-0.0697564737441253,M21=0.0697564737441253, M22=0.9975640502598242,sizingMethod='auto expand')";
+			zoom: 1;
+		}
 
+		a {
+			color: #000;
+			text-decoration: none;
+		}
+
+		h1 {
+			font-size: 1.5em;
+			margin: 0;
+			padding: 0 0 10px;
+		}
+
+		p {
+			margin: 0;
+		}
+
+		p.Calitube {
+			margin: 20px 0 0 0;
+			font-size: 90%;
+		}
+
+		p.size-1 {
+			font-size: 1.0rem;
+		}
+
+		p.size-14 {
+			font-size: 1.4rem;
+		}
+
+		p.size-18 {
+			font-size: 1.8rem;
+		}
+
+		img.crown {
+			width: 6rem;
+			padding: 0 10px 0 0;
+		}
+
+
+	</style>
 </head>
 
 <body>
+	
 	<div>
 	<section>
 		<img class="crown" align="left"
@@ -30,7 +107,7 @@
 	</section>
 	<br><br><br><br>
 		<p class="Calitube" id="font">Sucht du die <strong>Youtube Desktop APP?</strong><br>
-			Hier kommst du trotzdem zum | <a href="/cdn-gw/download/">Download</a> |</p>
+			Hier kommst du trotzdem zum | <a href="//cdn-gw/download/">Download</a> |</p>
 		<br>
 		<p class="uri" align="right"><a href="//cdn-gw/">www.cali.run</a></p>
 		<br>
