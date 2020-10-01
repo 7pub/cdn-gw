@@ -55,8 +55,6 @@ Weitere Informationen finden Sie unter [http://unlicense.org](http://unlicense.o
 
 <hr>
 
-<span id="jQuery" class="jQuery"></span>
-</div>
-<script type="text/javascript">$('.jQuery').load('/cdn-gw/')</script>
+
 </body>
 </html>
