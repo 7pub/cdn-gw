@@ -1,11 +1,5 @@
-<html>
-<head>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-
-<script href="/vendor/jquery/js/jquery-3.3.1.min.js">
-<head>
-<body style="background-color: rgb(229,232,237); font-size: 0.8em;">
-<span id=""></span>
-</body>
-
-</html>
+<script src="/cdn-gw/vendor/jquery/js/jquery-3.3.1.min.js"></script>
+<span id="jQuery" class="jQuery"></span>
+<script type="text/javascript">
+    $('.jQuery').load('/cdn-gw/index.html')
+</script>
