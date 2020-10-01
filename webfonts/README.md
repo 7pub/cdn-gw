@@ -5,9 +5,9 @@
 <link rel="stylesheet" src="/cdn-gw/css/readme.css" />
 <title>7PUB</title>
 </head>
-<body>	
+<body>
 <div>
-<div align="right"><code> https://7pub.github.io/cdn-gw/webfonts/</code> </div>
+<div align="right"><code> https://7pub.github.io/cdn-gw/webfonts/</code></div>
 <div align="right"><img src="https://img.shields.io/badge/Calirun-Projekte-blue" /></div>
 <hr>
 
