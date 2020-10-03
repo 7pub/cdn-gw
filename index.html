@@ -9,16 +9,33 @@
 <head>
   <title>cdn-gw</title>
   <base href="/cdn-gw/">
-  <!--meta http-equiv="refresh" content="; URL=docs/"-->
   <meta charset="UTF-8">
   <meta name="author" content="cali">
   <meta name="keywords" content="keywords,here">
   <meta name="description" content="description here">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/vnd.microsoft.icon">
-  <link rel="stylesheet" href="css/index.css" type="text/css">
 
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="shortcut icon" href="favicon/x-image.ico" type="image/vnd.microsoft.icon">
+  <script>
+      function loadStyle(directory, files) {
+          var head = document.getElementsByTagName("head")[0]
+          var extension = '.css'
+          for (var file of files) {
+              var path = directory + file + extension
+              var link = document.createElement("link")
+              link.href = path
+              link.type = "text/css"
+              link.rel = "stylesheet"
+              head.appendChild(link)
+          }
+      }
+      (() => loadStyle('css/', ['index']))();
+      //(() => loadStyle('/path/to/files/', ['filename']))();
+  </script>   
   <style type="text/css">
     body {
       background-color: rgb(51, 153, 204) !important;
@@ -28,7 +45,7 @@
   </style>
   <script type="text/javascript">
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-XXXXXXXX-Y']);
+    _gaq.push(['_setAccount', 'UA-143517290-1']);
     _gaq.push(['_trackPageview']);
     (function () {
       var ga = document.createElement('script');
@@ -44,8 +61,7 @@
 <body>
   <section id="404">
     <div>
-      <img align="left" style="width: 6rem;" class="image-png-chrome-192x192-base64 " alt="192x192-base64"
-        title="android-chrome" name="crown-icon" />
+      <img align="left" style="width: 6rem;" class="image-png-chrome-192x192-base64" />
       <br>
       <span class="size-14-span">
         <p align="center" class="size-14">
@@ -53,8 +69,7 @@
       </span>
       <hr>
       <br>
-      <img align="right" style="width: 9rem;" class="octicons-bug-checker-base64" alt="octicons-base64"
-        title="bug-checker-base64" name="bug-checker-base64" />
+      <img align="right" style="width: 9rem;" class="octicons-bug-checker-base64" />
       <br>
       <br>
       <br>
