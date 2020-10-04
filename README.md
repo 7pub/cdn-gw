@@ -113,13 +113,13 @@
 ┃ ┣ 📜nativedroid2.color.teal.css<br style="content: ' '; display: block; margin: -0.4em">
 ┃ ┣ 📜nativedroid2.color.yellow.css<br style="content: ' '; display: block; margin: -0.4em">
 ┃ ┗ 📜nativedroid2.css<br style="content: ' '; display: block; margin: -0.4em">
-┣ 📂numpad[./numpad](./css/numpad)<br style="content: ' '; display: block; margin: -0.4em">
+┣ 📂[./numpad](./css/numpad)<br style="content: ' '; display: block; margin: -0.4em">
 ┃ ┗ 📜style.css<br style="content: ' '; display: block; margin: -0.4em">
-┣ 📂osint[./osint](./css/osint)<br style="content: ' '; display: block; margin: -0.4em">
+┣ 📂[./osint](./css/osint)<br style="content: ' '; display: block; margin: -0.4em">
 ┃ ┗ 📜arf.css<br style="content: ' '; display: block; margin: -0.4em">
-┣ 📂softkeys-0.0.1[./softkeys-0.0.1](./css/softkeys-0.0.1)<br style="content: ' '; display: block; margin: -0.4em">
+┣ 📂[./softkeys-0.0.1](./css/softkeys-0.0.1)<br style="content: ' '; display: block; margin: -0.4em">
 ┃ ┗ 📜style.css<br style="content: ' '; display: block; margin: -0.4em">
-┣ 📂tricon[./tricon](./css/tricon)<br style="content: ' '; display: block; margin: -0.4em">
+┣ 📂[./tricon](./css/tricon)<br style="content: ' '; display: block; margin: -0.4em">
 ┃ ┗ 📜style.css<br style="content: ' '; display: block; margin: -0.4em">
 ┣ 📜index.css<br style="content: ' '; display: block; margin: -0.4em">
 ┗ 📜index.html<br style="content: ' '; display: block; margin: -0.4em">
