@@ -1,5 +1,4 @@
-#### \7pub\cdn-gw\public\Chefkoch\
-#
+<hr>
 
 ```code
 
@@ -7,5 +6,5 @@
 <iframe id="iFrame" src="/Chefkoch/" data-hj-allow-iframe=""> 
     Your browser doesn't support QR-Codes 
 </iframe>
-
 ```
+<hr>

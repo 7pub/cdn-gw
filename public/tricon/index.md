@@ -1,4 +1,4 @@
-cdn-gw\public\tricon\index.md
+<hr>
 
 ```
 <link rel="stylesheet" href="/cdn-gw/root/load.css" />
@@ -6,3 +6,4 @@ cdn-gw\public\tricon\index.md
     Your browser doesn't support QR-Codes 
 </iframe>
 ```
+<hr>

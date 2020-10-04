@@ -1,5 +1,4 @@
-###cdn-gw\public\RESTful\
-## index.md
+<hr>
 
 ```code
 
@@ -7,5 +6,5 @@
 <iframe id="iFrame" src="/RESTful/" data-hj-allow-iframe=""> 
     Your browser doesn't support QR-Codes 
 </iframe>
-
 ```
+<hr>

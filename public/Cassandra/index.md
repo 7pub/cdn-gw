@@ -1,4 +1,4 @@
-#
+<hr>
 
 ```code
 
@@ -8,3 +8,4 @@
     $('.cassandra').load('/Cassandra/app/')
 </script>
 ```
+<hr>

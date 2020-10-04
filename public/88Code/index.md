@@ -1,4 +1,4 @@
-#
+<hr>
 
 ```code
 
@@ -7,5 +7,5 @@
 <script type="text/javascript">
     $('.88Code').load('/88Code/app/index.html')
 </script>
-
 ```
+<hr>
