@@ -3,8 +3,6 @@
 </div>
 <hr>
 <h2>📦 Verzeichnissbaum von <strong>CDN-GW</strong></h2>
-
-#
 <h3>
 
 📂 [./badge](./badge)<br style="content: ' '; display: block; margin: -0.4em">
