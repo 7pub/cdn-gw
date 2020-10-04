@@ -1,3 +1,4 @@
+<body style="background-color: rgb(229,232,237); font-size: 0.8em; color:black">
 <div align="right">
   <img src="https://img.shields.io/badge/Calirun-Projekte-blue" />
 </div>
