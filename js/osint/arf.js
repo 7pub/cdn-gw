@@ -4,7 +4,6 @@ var margin = [20, 120, 20, 140],
     i = 0,
     duration = 1250,
     root;
-
 var tree = d3.layout.tree()
     .size([height, width]);
 
