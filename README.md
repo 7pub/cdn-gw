@@ -10,7 +10,7 @@
 <h2>📦 Verzeichnissbaum von <strong>CDN-GW</strong></h2>
 <h3>
 
-📂 [https://7pub.github.io/cdn-gw/](./badge)<br style="content: ' '; display: block; margin: -0.4em">
+📂 [./badge]([./badge](https://7pub.github.io/cdn-gw/))<br style="content: ' '; display: block; margin: -0.4em">
 ┣ 📜badge.svg<br style="content: ' '; display: block; margin: -0.4em">
 ┣ 📜blocked-attackes.250.svg<br style="content: ' '; display: block; margin: -0.4em">
 ┣ 📜cali.run.svg<br style="content: ' '; display: block; margin: -0.4em">
