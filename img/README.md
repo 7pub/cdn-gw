@@ -2,9 +2,9 @@
 <div>
 <!--(𝙶𝚎𝚍𝚊𝚗𝚔𝚎𝚗𝚎𝚡𝚙𝚎𝚛𝚒𝚖𝚎𝚗𝚝):<br>𝙰𝚗𝚐𝚎𝚗𝚘𝚖𝚖𝚎𝚗 𝚞𝚗𝚜𝚎𝚛𝚎 𝙺𝚗𝚒𝚎𝚐𝚎𝚕𝚎𝚗𝚔𝚎 𝚔𝚗𝚒𝚌𝚔𝚎𝚗 𝚗𝚊𝚌𝚑 𝚟𝚘𝚛𝚗𝚎 𝚊𝚋. "𝙒𝙞𝙚 𝙬ü𝙧𝙙𝙚𝙣 𝙪𝙣𝙨𝙚𝙧𝙚 𝙎𝙩ü𝙝𝙡𝙚 𝙖𝙪𝙨𝙨𝙚𝙝𝙚𝙣?"-->
 <!--span align="right"> [![](https://img.shields.io/badge/Raw-{README}-F1F1F1?style=for-the-badge)](https://7pub.github.io/cdn-gw/img/README.md) </span-->
+  <hr>
   <div align="right"> <img src="https://img.shields.io/badge/Calirun-Projekte-blue" /> </div>
 </diV>
-  <hr>
   <h2>📦 Verzeichnissbaum von <strong>CDN-GW/IMG</strong></h2>
 <h3>
 
