@@ -8,4 +8,4 @@
 
 ### Index of /directory/urls
 
-> https://7pub.github.io/cdn-gw/img/
+> https://7pub.github.io/cdn-gw/img/index.html
