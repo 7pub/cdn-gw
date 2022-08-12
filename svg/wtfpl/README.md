@@ -1,1 +1,1 @@
-/cdn-gw/blob/master/svg/wtfpl/wtfpl.svg
+https://7pub.github.io/cdn-gw/svg/wtfpl/wtfpl.svg
