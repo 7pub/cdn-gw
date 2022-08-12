@@ -1,9 +1,11 @@
-# README.md
+<span align="right">
 
 [![](https://img.shields.io/badge/Raw-{README}-F1F1F1?style=for-the-badge)](https://7pub.github.io/cdn-gw/img/README.md)
 
-### Index of /cdn-gw/img/...
+</span>
 
-> [![](https://img.shields.io/badge/Raw-{/cdn-gw/img/}-22272e?style=for-the-badge)](https://7pub.github.io/cdn-gw/img/#)
+---
+
+### Index of /directory/urls
 
 > https://7pub.github.io/cdn-gw/img/
