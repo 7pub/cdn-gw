@@ -1,18 +1,12 @@
 
 # github-corner
 
-<<<<<<< HEAD
 | [![GitHub](https://img.shields.io/badge/Landing-Page-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://caliapp.github.io/github-corner/) | [![](https://img.shields.io/badge/Repository-Page-465C80?style=for-the-badge&logo=showtime&logoColor=408080)](https://caliapp.github.io/github-corner/README.md) |
 -|-|
 |||
-=======
----
-
-[![GitHub](https://img.shields.io/badge/Landing-Page-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://caliapp.github.io/github-corner/)
-
-[![](https://img.shields.io/badge/Repository-Page-465C80?style=for-the-badge&logo=showtime&logoColor=408080)](https://caliapp.github.io/github-corner/README.md)
 
 >>>>>>> 00e880eb546c6c2e94688a4ff14c2bc219857faa
+
 ```html
 <!-- GitHub Corner -->
 <a href="https://github.com/7pub/#" class="github-corner" aria-label="View source on GitHub">
