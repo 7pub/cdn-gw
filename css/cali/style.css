@@ -1,0 +1,24 @@
+@import url("https://cdn-gw.gitproxy.run/css/examples.css") screen;
+@import url("https://cdn-gw.gitproxy.run/css/dist/fullpage.css") screen;
+@import url("style.css") screen;
+@import url("#") screen;
+
+h1{font-size: 5em;font-family: arial,helvetica;color: #fff;margin:0;padding:0;}
+.section{text-align:center;}
+#section0, #section1, #section2, #section3, #section4, 
+#slide1, #slide2{background-size: cover;background-attachment: fixed;}
+#section0{background-image: url(https://cdn-gw.gitproxy.run/img/dist/bg1.jpg);}
+#section0 h1{top: 50%;transform: translateY(-50%);position: relative;}
+    #slide1{background-image: url(https://cdn-gw.gitproxy.run/img/dist/bg2.jpg);padding: 6% 0 0 0;}
+    #slide2{background-image: url(https://cdn-gw.gitproxy.run/img/dist/bg5.jpg);padding: 6% 0 0 0;}
+#section2{background-image: url(https://cdn-gw.gitproxy.run/img/dist/bg3.jpg);padding: 6% 0 0 0;}
+#section3{background-image: url(https://cdn-gw.gitproxy.run/img/dist/bg4.jpg);padding: 6% 0 0 0;}
+#section3 h1{color: #000;}
+#section4{background-image: url(https://cdn-gw.gitproxy.run/img/dist/bg3.jpg);padding: 6% 0 0 0;}
+#section4 h1{color: #000;}
+#infoMenu li a {color: #fff;}
+#cf-turnstile {position: relative; top: 0px; left: 0px; margin-top: 0px; z-index: 1}
+
+.container {font-family: arial;font-size: 24px;margin: 25px;width: 350px;height: 200px;outline: dashed 1px black;display: flex;justify-content: center;align-items: center;}
+.child {width: 50px;height: 50px;background-color: red;}
+.parent {display: flex;justify-content: center;align-items: center;}
